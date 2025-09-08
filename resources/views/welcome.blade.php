@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CHERISH｜福岡のデトックスサロン｜水素吸入・足湯・岩盤浴</title>
+      <meta name="keywords"  content="CHERISH, デトックスサロン, 福岡サロン, 水素吸入, 足湯, 岩盤浴, 心と体ケア, リラクゼーション, ヒーリング, 自分時間">
+      <meta name="description" content="福岡のデトックスサロンCHERISH。水素吸入・天然鉱石の足湯・低温岩盤浴で心と体を癒し、自分を大切にする時間をご提供します。">
+      <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.bunny.net">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+      <!-- Bootstrap 5 CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kiwi+Maru&display=swap"
+         rel="stylesheet">
+      <link href="{{ asset('css/lightbox.min.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/hover.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container-fluid header-section">
+         <div class="row align-items-center ">
+            <div class="col-2">
+               <a href="{{ route('home') }}" title="CHERISH | Home Page">
+               <img src="{{asset('/images/logo.png')}}" class="w-75 mx-auto"  alt="The Blue Lotus Meditation Center">
+               </a>
+            </div>
+            <div class="col-8">
+               <nav class="navbar navbar-expand-lg navbar-light  ">
+                  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav mx-auto navbar-custom">
+                        <li class="nav-item ">
+                           <a class="nav-link active font-18 jost-font text-white fw-bolder px-5" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link font-18 jost-font text-white fw-bolder  px-5" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link font-18 jost-font text-white fw-bolder  px-5" href="#">Service Menu</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link font-18 jost-font text-white fw-bolder  px-5" href="#">Our story</a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+            <div class="col-2">
+               <a href="" class="jost-font font-17 fw-bolder px-5 py-2 btn-animate">Contact Us</a>
+            </div>
+            <!-- <div class="border-bar"></div> -->
+         </div>
+      </div>
+      <div class="container-fluid slider-section  ">
+         <div class="row align-items-center ">
+            <div class="col-12 px-0">
+               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img
+                           src="{{asset('/images/salon-banner.png')}}"
+                           class="d-block w-100" alt="Cherish">
+                        <div class="carousel-caption d-none d-md-block">
+                           <h3 class="font-60"><span class="fw-normal kiwi-maru-font text-second">Cherish Salon</span> <span class="jost-font text-white fw-bolder">A Touch of Luxury, A World of Style</span></h3>
+                           <ul class="d-flex justify-content-center list-unstyled gap-5 pt-5">
+                              <li><a href="https://beauty.hotpepper.jp/" target="_blank" class="btn-border-1 jost-font font-17 fw-bolder px-5 py-2 bt-hvr hvr-grow ">ごはこちら</a></li>
+                              {{--
+                              <li><a href="" class="btn-border-1 jost-font font-17 fw-bolder px-5 py-2 bt-hvr hvr-grow">Service Menu</a></li>
+                              --}}
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container compny-details">
+            <div class="row justify-content-center text-center">
+               <div class="col-lg-4 mb-4">
+                  <h4 class="font-18 fw-bold text-white text-uppercase jost-font ls-1 pb-4">CONTACT</h4>
+                  <p class="fw-normal jost-font font-16 pb-1"> <a href="tel:07094857568" class="text-white">070 9485 7568</a></p>
+                  <p class="fw-normal jost-font font-16"><a href="mailto:info@beautysalon.com" class="text-white">info@beautysalon.com</a></p>
+               </div>
+               <div class="col-lg-4 mb-4">
+                  <h4 class="font-18 fw-bold text-white text-uppercase jost-font ls-1 pb-4">HOURS</h4>
+                  <p class="fw-normal jost-font font-16 pb-1 text-white">Mon to Fri: 7:30 am — 1:00 am </p>
+                  <p class="fw-normal jost-font font-16 pb-1 text-white">Sat: 9:00 am — 1:00 am</p>
+                  <p class="fw-normal jost-font font-16 pb-1 text-white">Sun: 9:00 am — 11:30 pm</p>
+               </div>
+               <div class="col-lg-4 mb-4">
+                  <h4 class="font-18 fw-bold text-white text-uppercase jost-font ls-1 pb-4">LOCATION</h4>
+                  <p class="fw-normal jost-font font-16 pb-1 text-white">1-chōme-206</p>
+                  <p class="fw-normal jost-font font-16 pb-1 text-white">Hikida, Kanazawa, Ishikawa</p>
+                  <p class="fw-normal jost-font font-16 pb-1 text-white">920-0003, Japan</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <section id="about" class="py-5 bg-main">
+         <div class="container py-4">
+            <!-- Heading -->
+            <div class="row align-items-center g-4 g-lg-5 jost-font text-main ">
+               <div class="col-lg-6">
+                  <h1 class="font-54 fw-bold mb-3">We build products that put people first</h1>
+                  <p class="font-18 fw-normal  mb-4">
+                     Since 2018, our team has delivered fast, reliable solutions for businesses of all sizes.
+                     We combine thoughtful design with robust engineering to create experiences users love.
+                  </p>
+                  <!-- Value bullets -->
+                  <ul class="list-unstyled mb-4">
+                     <li class="d-flex mb-2">
+                        <div class="me-3 flex-shrink-0">
+                           <span class="badge rounded-circle bg-danger p-2">
+                           <span class="visually-hidden">check</span>✓
+                           </span>
+                        </div>
+                        <div><strong>User-centric:</strong> research-driven decisions at every step.</div>
+                     </li>
+                     <li class="d-flex mb-2">
+                        <div class="me-3 flex-shrink-0">
+                           <span class="badge rounded-circle bg-danger p-2">✓</span>
+                        </div>
+                        <div><strong>Reliable:</strong> clean architecture, tested releases, clear SLAs.</div>
+                     </li>
+                     <li class="d-flex">
+                        <div class="me-3 flex-shrink-0">
+                           <span class="badge rounded-circle bg-danger p-2">✓</span>
+                        </div>
+                        <div><strong>Transparent:</strong> open communication and honest timelines.</div>
+                     </li>
+                  </ul>
+               </div>
+               <!-- Image / media -->
+               <div class="col-lg-6">
+                  <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm">
+                     <img
+                        src="{{asset('/images/about-us.jpg')}}"
+                        alt="Our team collaborating in the studio"
+                        class="w-100 h-100 object-fit-cover">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="container-fluid service-section py-5 bg-white">
+         <div class="container py-5">
+            <div class="row align-items-center ">
+               <div class="col-12 jost-font text-main text-center mx-auto">
+                  <h2 class="font-40 fw-bold pb-5">Service Menu</h2>
+                  {{--
+                  <ul class="d-flex justify-content-center list-unstyled gap-5 font-24 text-main py-3 text-center">
+                     <li>
+                        <img
+                           src="{{asset('/images/1.png')}}"
+                           class="w-auto mx-auto" alt="CHERISH">
+                        <div class="font-17 fw-bolder pt-2  ls-1">Facial</div>
+                     </li>
+                     <li>
+                        <img  src="{{asset('/images/2.png')}}"class="w-auto mx-auto" alt="CHERISH">
+                        <div class="font-17 fw-bolder pt-2  ls-1">Skincare</div>
+                     </li>
+                     <li>
+                        <img  src="{{asset('/images/3.png')}}" class="w-auto mx-auto" alt="CHERISH">
+                        <div class="font-17 fw-bolder pt-2  ls-1">manicure pedicure</div>
+                     </li>
+                     <li>
+                        <img  src="{{asset('/images/4.png')}}" class="w-auto mx-auto" alt="CHERISH">
+                        <div class="font-17 fw-bolder pt-2  ls-1">Makeup</div>
+                     </li>
+                     <li>
+                        <img  src="{{asset('/images/5.png')}}"class="w-auto mx-auto" alt="CHERISH">
+                        <div class="font-17 fw-bolder pt-2  ls-1">Hair</div>
+                     </li>
+                  </ul>
+                  --}}
+
+
+
+@php
+    $useSlider = $services->count() > 3;
+@endphp
+
+@if($useSlider)
+    <div class="owl-carousel service-carousel">
+        @foreach($services as $service)
+            <div class="item px-1"> {{-- px-1 gives small gap between cards --}}
+                <div class="card h-100 shadow-sm rounded-3">
+
+                    {{-- Image box (200px height, cover) --}}
+                    <div class="w-100" style="height:200px;">
+                        @php
+                            $img = $service->image_path
+                                ? asset('storage/'.$service->image_path)
+                                : asset('/images/service.jpg');
+                        @endphp
+                        <img src="{{ $img }}" alt="{{ $service->title }}"
+                             class="w-100"
+                             style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-2">{{ $service->title }}</h5>
+                        <p class="mb-0 text-muted">
+                            {{ \Illuminate\Support\Str::limit($service->description ?? '—', 90) }}
+                        </p>
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-between align-items-center bg-white">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="fw-bolder">¥{{ number_format($service->price, 2) }}</span>
+                            @unless($service->is_active)
+                                <span class="badge bg-secondary">Inactive</span>
+                            @endunless
+                        </div>
+
+                        <a href="{{ route('services.show', $service) }}"
+                           class="py-2 px-4 btn-border fw-bold text-center">
+                           Book
+                        </a>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    </div>
+
+@else
+    {{-- Fallback grid when <= 3 items --}}
+    <div class="row g-4">
+        @if($services->count() > 0)
+            @foreach($services as $service)
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100 shadow-sm rounded-3">
+
+                        <div class="w-100" style="height:200px;">
+                            @php
+                                $img = $service->image_path
+                                    ? asset('storage/'.$service->image_path)
+                                    : asset('/images/service.jpg');
+                            @endphp
+                            <img src="{{ $img }}" alt="{{ $service->title }}"
+                                 class="w-100"
+                                 style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="fw-bold mb-2">{{ $service->title }}</h5>
+                            <p class="mb-0 text-muted">
+                                {{ \Illuminate\Support\Str::limit($service->description ?? '—', 90) }}
+                            </p>
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-between align-items-center bg-white">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bolder">¥{{ number_format($service->price, 2) }}</span>
+                                @unless($service->is_active)
+                                    <span class="badge bg-secondary">Inactive</span>
+                                @endunless
+                            </div>
+
+                            <a href="{{ route('services.show', $service) }}"
+                               class="py-2 px-4 btn-border fw-bold text-center">
+                               Book
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        @else
+            <div class="col-12">
+                <div class="alert alert-info mb-0 font-16 fw-normal">No services found.</div>
+            </div>
+        @endif
+    </div>
+@endif
+
+
+
+
+
+
+
+
+               </div>
+               {{--
+               <p class="font-16 fw-normal py-3">We started as a small beauty studio in Pakistan. Our main idea was
+                  to create the best beauty studio in the world. Can there be compromises in the best studio in
+                  the world? Our answer is always no, we care about the best quality, we hire the best specialists
+                  and provide the best customer service. This approach allowed us to grow and create awesome team
+                  that is passionate about everything we do.
+               </p>
+               <p class="pt-4 ">
+                  <a href="" class="py-2 px-5 btn-border font-16 fw-bold text-center hvr-bounce-to-right">View Service Menu</a>
+               </p>
+               --}}
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid story-section py-5 bg-main">
+         <div class="container pt-3 pb-5">
+            <div class="row align-items-center pb-lg-5">
+               <div class="col-lg-6">
+                  <img    src="{{asset('/images/makeup-artits.png')}}" class="w-100" alt="CHERISH">
+               </div>
+               <div class="col-lg-1"></div>
+               <div class="col-lg-5 jost-font text-main">
+                  <h2 class="font-40 fw-bold pb-3">Our Story</h2>
+                  <p class="font-18 fw-normal pb-2">We started as a small beauty studio in Pakistan. Our main idea was
+                     to create the best beauty studio in the world. Can there be compromises in the best studio in
+                     the world? Our answer is always no, we care about the best quality, we hire the best specialists
+                     and provide the best customer service. This approach allowed us to grow and create awesome team
+                     that is passionate about everything we do.
+                  </p>
+                  <p class="pt-4 ">
+                     <a href="" class="py-2 px-5 btn-border font-16 fw-bold text-center hvr-bounce-to-right">Learn
+                     More</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid seen-section py-5  ">
+         <div class="container py-5">
+            <div class="row align-items-center py-5">
+               <div class="col-lg-9 mx-auto text-center text-main">
+                  <h2 class="font-40 fw-bold pb-3 jost-font">As seen On</h2>
+                  <p class="font-40 kiwi-maru-font  fw-normal  ">"The place with its constant excellence, soul, and style"</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid follow-section py-5 ">
+         <div class="container  ">
+            <div class="row align-items-center ">
+               <div class="col-lg-5">
+                  <img    src="{{asset('/images/log02.png')}}" class="w-100" alt="CHERISH">
+               </div>
+               <div class="col-lg-2 gradient-bar"></div>
+               <div class="col-lg-5 jost-font text-center">
+                  <h2 class="font-40 fw-bold pb-3">Follow</h2>
+                  <div class="row">
+                     <div class="col-8  mx-auto">
+                        <p class="font-18 fw-normal pb-2">Don’t miss promotions, follow us for the latest news</p>
+                        <ul class="d-flex justify-content-center list-unstyled gap-4 font-24 text-main pt-3">
+                           {{--
+                           <li><a href="" target="_blank"  class="hvr-grow"><i class="fa-brands fa-twitter text-main"></i></a></li>
+                           --}}
+                           <li><a href="https://www.tiktok.com/@cherish_fukuoka" target="_blank"  class="hvr-grow"><i class="fa-brands fa-tiktok text-main"></i></a></li>
+                           <li><a href="https://www.youtube.com/channel/UCJwlS_qkGUo_bL4dA5wQ6oQ" target="_blank"  class="hvr-grow"><i class="fa-brands fa-youtube text-main"></i></a></li>
+                           <li><a href="https://www.instagram.com/cherish20260110" target="_blank" class="hvr-grow"><i class="fa-brands fa-instagram text-main " ></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid gallery-container py-5 bg-main">
+         <div class="row pt-3 pb-4">
+            <div class="col-12 section-d-top">
+               <h2 class="font-40 fw-bold pb-5 jost-font text-main text-center">Gallery</h2>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-1.png')}}"   data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-1.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-2.png')}}" data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-2.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-3.png')}}" data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-3.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-4.png')}}" data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-4.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-8.png')}}" data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-8.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-5.png')}}" data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-5.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-6.png')}}" data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-6.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-3 px-0">
+               <div class="hovereffect">
+                  <a href="{{asset('/images/gallery-7.png')}}" data-lightbox="gallery" data-title="Image caption">
+                     <img src="{{asset('/images/gallery-7.png')}}" class="img-fluid w-100" alt="CHERISH">
+                     <div class="overlay">
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid location-section py-5">
+         <div class="row align-items-center pt-4">
+            <div class="col-12 mx-auto text-center text-second px-0">
+               <h2 class="font-40 fw-bold pb-5 jost-font">Location</h2>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662975.6782793591!2d138.4502677459277!3d35.50429376601057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2slk!4v1756617195792!5m2!1sen!2slk"   class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </div>
+      </div>
+
+
+
+
+
+
+<div class="container-fluid service-section py-5 bg-main">
+         <div class="container py-5">
+            <div class="row align-items-center ">
+               <div class="col-12 jost-font text-main text-center mx-auto">
+                  <h2 class="font-40 fw-bold">Testimonial</h2>
+
+                  <div class="row g-4">
+
+
+
+        <div class="col-sm-12">
+
+          <div id="customers-testimonials" class="owl-carousel" role="region" aria-roledescription="carousel" aria-label="Testimonials">
+            <!-- ITEM 1 -->
+
+
+
+  @foreach($testimonials as $testimonial)
+
+            <div class="item" aria-roledescription="slide">
+              <div class="shadow-effect">
+                <img class="img-circle" src="{{ asset('storage/'.$testimonial->image_path) }}" alt="Photo of Emiliano Aquilani">
+                <p>{{ ($testimonial->content) }}</p>
+              </div>
+              <div class="testimonial-name">{{ ($testimonial->name) }}</div>
+            </div>
+  @endforeach
+
+          </div><!-- /#customers-testimonials -->
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+               </div>
+               {{--
+               <p class="font-16 fw-normal py-3">We started as a small beauty studio in Pakistan. Our main idea was
+                  to create the best beauty studio in the world. Can there be compromises in the best studio in
+                  the world? Our answer is always no, we care about the best quality, we hire the best specialists
+                  and provide the best customer service. This approach allowed us to grow and create awesome team
+                  that is passionate about everything we do.
+               </p>
+               <p class="pt-4 ">
+                  <a href="" class="py-2 px-5 btn-border font-16 fw-bold text-center hvr-bounce-to-right">View Service Menu</a>
+               </p>
+               --}}
+            </div>
+         </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="container-fluid opening-section py-5 bg-white">
+         <div class="row  py-3 text-center text-main">
+            <div class="col-lg-4">
+               <img src="{{asset('/images/mobile.png')}}" class="w-auto mx-auto" alt="CHERISH">
+               <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">CONTACT</h4>
+               <p class="fw-normal jost-font font-16 pb-1"> <a href="tel:07094857568" class="text-a"> 070 9485 7568</a></p>
+               <p class=" fw-normal jost-font font-16"><a href="mailto:info@beautysalon.com" class="text-a">info@beautysalon.com</a></p>
+            </div>
+            <div class="col-lg-4">
+               <img src="{{asset('/images/clock.png')}}" class="w-auto mx-auto" alt="CHERISH">
+               <h4 class="font-20 fw-bold text-main text-uppercase ls-2  py-3">HOURS</h4>
+               <p class="fw-normal jost-font font-16 pb-1 text-a">  Mon to Fri: 7:30 am — 1:00 am</p>
+               <p class=" fw-normal jost-font font-16 pb-1 text-a">Sat: 9:00 am — 1:00 am</p>
+               <p class=" fw-normal jost-font font-16 pb-1 text-a">Sun: 9:00 am — 11:30 pm</p>
+            </div>
+            <div class="col-lg-4">
+               <img src="{{asset('/images/location.png')}}" class="w-auto mx-auto" alt="CHERISH">
+               <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">LOCATION</h4>
+               <p class=" fw-normal jost-font font-16 pb-1 text-a">1-chōme-206</p>
+               <p class=" fw-normal jost-font font-16 pb-1 text-a"> Hikida, Kanazawa, Ishikawa</p>
+               <p class=" fw-normal jost-font font-16 pb-1 text-a">920-0003, Japan</p>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid footer-section py-5 bg-second">
+         <div class="container  pt-3">
+            <div class="row align-items-center">
+               <div class="col-lg-3">
+                  <a href="{{ route('home') }}" title="CHERISH | Home Page">
+                  <img src="{{asset('/images/log02.png')}}" class="w-100" alt="CHERISH">
+                  </a>
+               </div>
+               <div class="col-lg-1">
+               </div>
+               <div class="col-lg-4">
+                  <h4 class="font-18 fw-bold text-main text-uppercase pb-3">QUICK LINKS</h4>
+                  <ul class="list-unstyled m-0 p-0">
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long"></i> <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
+                        Home
+                        </a>
+                     </li>
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long"></i>   <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
+                        About us
+                        </a>
+                     </li>
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long"></i>  <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
+                        Service Menu
+                        </a>
+                     </li>
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long"></i>  <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
+                        Our story
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-lg-4 text-center">
+                  <h2 class="font-24 fw-bold pb-3">Contact Us</h2>
+                  <div class="row">
+                     <div class="col-8  mx-auto">
+                        <p class="font-15 fw-normal pb-2">Don’t miss promotions, follow us for the latest news</p>
+                        <ul class="d-flex justify-content-center list-unstyled gap-4 font-18 text-main pt-3">
+                           <li><a href="https://www.tiktok.com/@cherish_fukuoka" target="_blank"  class="hvr-grow"><i class="fa-brands fa-tiktok text-main"></i></a></li>
+                           <li><a href="https://www.youtube.com/channel/UCJwlS_qkGUo_bL4dA5wQ6oQ" target="_blank"  class="hvr-grow"><i class="fa-brands fa-youtube text-main"></i></a></li>
+                           <li><a href="https://www.instagram.com/cherish20260110" target="_blank" class="hvr-grow"><i class="fa-brands fa-instagram text-main " ></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid container-footer-copyright py-3 ">
+         <div class="container jost-font text-center">
+            <div class="row">
+               <div class="col-xs-12">
+                  <p class="company-name">
+                     Copyright © <span id="year"></span> CHERISH |
+                     Design by <a href="https://onemaxweb.com" target="_blank"  class="text-dark fw-bolder">
+                     OneMaxWeb Solution
+                     </a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- jQuery (latest) -->
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <!-- Bootstrap 5 JS (bundle includes Popper) -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="{{ url('js/lightbox-plus-jquery.min.js') }}"></script>
+      <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+
+   </body>
+   <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+
+
+
+
+  $('.service-carousel').owlCarousel({
+        loop: true,
+        dots: true,
+        nav: true,
+        navText: [
+        '<i class="fa fa-chevron-left"></i>',
+        '<i class="fa fa-chevron-right"></i>'
+      ],
+        autoplay: true,
+        smartSpeed: 5000,
+        animateOut: 'fadeOut',
+        autoplayTimeout: 5000,
+           margin: 16,
+        responsive: {
+         0: {
+             items: 1
+         },
+         600: {
+             items: 2
+         },
+         1000: {
+             items: 3
+         }
+        }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      jQuery(function ($) {
+      "use strict";
+
+      $('#customers-testimonials').owlCarousel({
+        loop: true,
+        center: true,
+        items: 2,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 4500,
+        smartSpeed: 450,
+        dots: true,
+        nav: false,
+        // keep the “peek” feel on smaller screens too
+        responsive: {
+          0:   { items: 1, stagePadding: 30, margin: 10 },
+          576: { items: 1, stagePadding: 60, margin: 10 },
+          768: { items: 2, stagePadding: 80 },
+          1170:{ items: 2, stagePadding: 50 }
+        }
+      });
+
+    });
+   </script>
+</html>
