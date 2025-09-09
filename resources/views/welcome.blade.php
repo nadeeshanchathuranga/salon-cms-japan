@@ -55,6 +55,26 @@
                   </div>
                </nav>
             </div>
+
+
+<div id="mySidenav" class="sidenav jost-font">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="col-8 d-block  d-sm-none text-end">
+    <span class="font-36" onclick="openNav()" style="cursor: pointer;">
+    <i class="fa fa-bars text-white"></i>
+</span>
+
+</div>
+
+
+
+
             <div class="col-2 d-none d-sm-block">
                <a href="" class="jost-font font-17 fw-bolder px-5 py-2 btn-animate">Contact Us</a>
             </div>
@@ -119,7 +139,7 @@
          </div>
       </div>
       <section id="about" class="py-5 bg-main">
-         <div class="container py-4">
+         <div class="container py-lg-4 py-sm-3">
             <!-- Heading -->
             <div class="row align-items-center g-4 g-lg-5 jost-font text-main ">
                <div class="col-lg-6">
@@ -671,7 +691,13 @@
    <script>
       document.getElementById("year").textContent = new Date().getFullYear();
 
+     function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 
 
 
@@ -736,6 +762,9 @@
           1000:{ items: 2, stagePadding: 50 }
         }
       });
+
+
+
 
     });
    </script>
