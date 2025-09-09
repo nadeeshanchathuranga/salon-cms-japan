@@ -26,12 +26,12 @@
    <body>
       <div class="container-fluid header-section">
          <div class="row align-items-center ">
-            <div class="col-2">
+            <div class="col-lg-2 col-sm-3 col-4">
                <a href="{{ route('home') }}" title="CHERISH | Home Page">
                <img src="{{asset('/images/logo.png')}}" class="w-75 mx-auto"  alt="The Blue Lotus Meditation Center">
                </a>
             </div>
-            <div class="col-8">
+            <div class="col-8 d-none d-sm-block">
                <nav class="navbar navbar-expand-lg navbar-light  ">
                   <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,7 @@
                   </div>
                </nav>
             </div>
-            <div class="col-2">
+            <div class="col-2 d-none d-sm-block">
                <a href="" class="jost-font font-17 fw-bolder px-5 py-2 btn-animate">Contact Us</a>
             </div>
             <!-- <div class="border-bar"></div> -->
@@ -70,7 +70,7 @@
                         <img
                            src="{{asset('/images/salon-banner.png')}}"
                            class="d-block w-100" alt="Cherish">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption  ">
                         <h3 class="font-60">
   <span class="fw-normal kiwi-maru-font text-second">CHERISH</span>
   <span class="jost-font text-white fw-bolder">デトックスサロン</span>
@@ -169,7 +169,7 @@
          <div class="container py-5">
             <div class="row align-items-center ">
                <div class="col-12 jost-font text-main text-center mx-auto">
-                  <h2 class="font-40 fw-bold pb-5">Service Menu</h2>
+                  <h2 class="font-40 fw-bold pb-lg-5 pb-sm-5 pb-3">Service Menu</h2>
                   {{--
                   <ul class="d-flex justify-content-center list-unstyled gap-5 font-24 text-main py-3 text-center">
                      <li>
@@ -325,7 +325,7 @@
                   <img    src="{{asset('/images/makeup-artits.png')}}" class="w-100" alt="CHERISH">
                </div>
 
-               <div class="col-lg-6 col-sm-7 jost-font text-main">
+               <div class="col-lg-6 col-sm-7 jost-font text-main pt-lg-0 pt-sm-0 pt-3">
                   <h2 class="font-40 fw-bold pb-3">ご利用の流れ</h2>
 
 
@@ -376,7 +376,7 @@
       <div class="container-fluid follow-section py-5 ">
          <div class="container  ">
             <div class="row align-items-center ">
-               <div class="col-lg-5 col-sm-5">
+               <div class="col-lg-5 col-sm-5 col-8 mx-auto">
                   <img    src="{{asset('/images/log02.png')}}" class="w-100" alt="CHERISH">
                </div>
                <div class="col-lg-2 col-sm-2 gradient-bar"></div>
@@ -400,9 +400,9 @@
       <div class="container-fluid gallery-container py-5 bg-main">
          <div class="row pt-3 pb-4">
             <div class="col-12 section-d-top">
-               <h2 class="font-40 fw-bold pb-5 jost-font text-main text-center">Gallery</h2>
+               <h2 class="font-40 fw-bold pb-lg-5 pb-sm-5 pb-3 jost-font text-main text-center">Gallery</h2>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-1.png')}}"   data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-1.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -411,7 +411,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-2.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-2.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -420,7 +420,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-3.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-3.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -429,7 +429,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-4.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-4.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -438,7 +438,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-8.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-8.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -447,7 +447,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-5.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-5.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -456,7 +456,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-6.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-6.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -465,7 +465,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 col-sm-3 px-0">
+            <div class="col-lg-3 col-6 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-7.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-7.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -479,7 +479,7 @@
       <div class="container-fluid location-section py-5">
          <div class="row align-items-center pt-4">
             <div class="col-12 mx-auto text-center text-second px-0">
-               <h2 class="font-40 fw-bold pb-5 jost-font">Location</h2>
+               <h2 class="font-40 fw-bold pb-lg-5 pb-sm-5 pb-3 jost-font">Location</h2>
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662975.6782793591!2d138.4502677459277!3d35.50429376601057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2slk!4v1756617195792!5m2!1sen!2slk"   class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
          </div>
@@ -491,7 +491,7 @@
 
 
 <div class="container-fluid service-section py-5 bg-main">
-         <div class="container py-5">
+         <div class="container py-lg-5  py-sm-5">
             <div class="row align-items-center ">
                <div class="col-12 jost-font text-main text-center mx-auto">
                   <h2 class="font-40 fw-bold">Testimonial</h2>
@@ -571,57 +571,81 @@
             </div>
          </div>
       </div>
-      <div class="container-fluid footer-section py-5 bg-second">
-         <div class="container  pt-3">
-            <div class="row align-items-center">
-               <div class="col-lg-3 col-sm-3">
-                  <a href="{{ route('home') }}" title="CHERISH | Home Page">
-                  <img src="{{asset('/images/log02.png')}}" class="w-100" alt="CHERISH">
-                  </a>
-               </div>
-               <div class="col-lg-1 col-sm-1">
-               </div>
-               <div class="col-lg-4 col-sm-3">
-                  <h4 class="font-18 fw-bold text-main text-uppercase pb-3">QUICK LINKS</h4>
-                  <ul class="list-unstyled m-0 p-0">
-                     <li class="pb-2">
-                        <i class="fa-solid fa-right-long"></i> <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
-                        Home
-                        </a>
-                     </li>
-                     <li class="pb-2">
-                        <i class="fa-solid fa-right-long"></i>   <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
-                        About us
-                        </a>
-                     </li>
-                     <li class="pb-2">
-                        <i class="fa-solid fa-right-long"></i>  <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
-                        Service Menu
-                        </a>
-                     </li>
-                     <li class="pb-2">
-                        <i class="fa-solid fa-right-long"></i>  <a href="#" class="font-15 fw-bolder jost-font text-main hvr-forward">
-                        Our story
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-lg-4 col-sm-4 text-center">
-                  <h2 class="font-24 fw-bold pb-3">Contact Us</h2>
-                  <div class="row">
-                     <div class="col-8  mx-auto">
-                        <p class="font-15 fw-normal pb-2">Don’t miss promotions, follow us for the latest news</p>
-                        <ul class="d-flex justify-content-center list-unstyled gap-4 font-18 text-main pt-3">
-                           <li><a href="https://www.tiktok.com/@cherish_fukuoka" target="_blank"  class="hvr-grow"><i class="fa-brands fa-tiktok text-main"></i></a></li>
-                           <li><a href="https://www.youtube.com/channel/UCJwlS_qkGUo_bL4dA5wQ6oQ" target="_blank"  class="hvr-grow"><i class="fa-brands fa-youtube text-main"></i></a></li>
-                           <li><a href="https://www.instagram.com/cherish20260110" target="_blank" class="hvr-grow"><i class="fa-brands fa-instagram text-main " ></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+
+
+
+
+
+
+<footer class="footer-section py-5 bg-second">
+  <div class="container pt-lg-3">
+    <div class="row gy-4 align-items-start align-items-lg-center justify-content-between">
+
+      <!-- Brand -->
+      <div class="col-6 col-sm-4 col-lg-3">
+        <a href="{{ route('home') }}" title="CHERISH | Home Page" class="d-inline-block">
+          <img src="{{ asset('/images/log02.png') }}" class="img-fluid" alt="CHERISH logo" loading="lazy" width="320" height="120">
+        </a>
       </div>
+
+      <!-- Quick Links -->
+      <nav class="col-6 col-sm-5 col-lg-4" aria-label="Quick links">
+        <h4 class="h6 fw-bold text-main text-uppercase pb-3 m-0">Quick Links</h4>
+        <ul class="list-unstyled m-0 p-0">
+          <li class="pb-2">
+            <i class="fa-solid fa-right-long me-2" aria-hidden="true"></i>
+            <a href=" " class="font-15 fw-semibold jost-font text-main hvr-forward">Home</a>
+          </li>
+          <li class="pb-2">
+            <i class="fa-solid fa-right-long me-2" aria-hidden="true"></i>
+            <a href=" " class="font-15 fw-semibold jost-font text-main hvr-forward">About Us</a>
+          </li>
+          <li class="pb-2">
+            <i class="fa-solid fa-right-long me-2" aria-hidden="true"></i>
+            <a href=" " class="font-15 fw-semibold jost-font text-main hvr-forward">Service Menu</a>
+          </li>
+          <li class="pb-2">
+            <i class="fa-solid fa-right-long me-2" aria-hidden="true"></i>
+            <a href=" " class="font-15 fw-semibold jost-font text-main hvr-forward">Our Story</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Contact / Social -->
+      <div class="col-12 col-sm-12 col-lg-4 text-start">
+        <h2 class="h5 fw-bold pb-2 m-0">Contact Us</h2>
+        <p class="font-15 mb-2">Don’t miss promotions, follow us for the latest news</p>
+        <ul class="d-flex justify-content-start list-unstyled gap-4 font-18 pt-2 m-0">
+          <li>
+            <a href="https://www.tiktok.com/@cherish_fukuoka" target="_blank" rel="noopener" class="hvr-grow" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok text-main"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCJwlS_qkGUo_bL4dA5wQ6oQ" target="_blank" rel="noopener" class="hvr-grow" aria-label="YouTube">
+              <i class="fa-brands fa-youtube text-main"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/cherish20260110" target="_blank" rel="noopener" class="hvr-grow" aria-label="Instagram">
+              <i class="fa-brands fa-instagram text-main"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
       <div class="container-fluid container-footer-copyright py-3 ">
          <div class="container jost-font text-center">
             <div class="row">

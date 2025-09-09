@@ -1,6 +1,42 @@
 /*mobile*/
 
 @media only screen and (max-width: 767px) {
+.font-54 {
+    font-size: 40px;
+}
+.gradient-bar {
+    display: none;
+
+}
+
+.font-40 {
+    font-size: 27px;
+}
+.seen-section {
+    min-height: 400px;
+
+}
+.map{
+    height: 300px;
+
+}
+#customers-testimonials .item {
+
+    margin-bottom: 30px;
+
+}
+
+.carousel-caption .font-60 {
+    font-size: 22px;
+}
+
+.carousel-caption .font-48 {
+    font-size: 18px;
+}
+
+
+
+
 
 }
 
@@ -11,7 +47,11 @@
     height: 300px;
 
 }
+#customers-testimonials .item {
 
+    margin-bottom: 40px;
+
+}
 .seen-section {
     min-height: 400px;
     margin-top: -5em;
@@ -25,12 +65,24 @@
     font-size: 27px;
 }
 
+
+
+
+
+
+
+
+
 }
 
 /*landscape*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
+#customers-testimonials .item {
 
+    margin-bottom: 50px;
+
+}
 }
 
 /*large*/
