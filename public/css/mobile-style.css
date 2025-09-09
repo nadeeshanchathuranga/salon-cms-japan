@@ -1,0 +1,40 @@
+/*mobile*/
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/*vertical*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.map{
+    height: 300px;
+
+}
+
+.seen-section {
+    min-height: 400px;
+    margin-top: -5em;
+
+}
+.font-60 {
+    font-size: 40px;
+}
+
+.font-48 {
+    font-size: 27px;
+}
+
+}
+
+/*landscape*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*large*/
+
+@media (min-width: 1400px) {
+
+}

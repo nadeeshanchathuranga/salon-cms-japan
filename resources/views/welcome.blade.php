@@ -21,6 +21,7 @@
       <link href="{{ asset('css/lightbox.min.css') }}" rel="stylesheet">
       <link href="{{ asset('css/hover.css') }}" rel="stylesheet">
       <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/mobile-style.css') }}" rel="stylesheet">
    </head>
    <body>
       <div class="container-fluid header-section">
@@ -70,9 +71,21 @@
                            src="{{asset('/images/salon-banner.png')}}"
                            class="d-block w-100" alt="Cherish">
                         <div class="carousel-caption d-none d-md-block">
-                           <h3 class="font-60"><span class="fw-normal kiwi-maru-font text-second">Cherish Salon</span> <span class="jost-font text-white fw-bolder">A Touch of Luxury, A World of Style</span></h3>
-                           <ul class="d-flex justify-content-center list-unstyled gap-5 pt-5">
-                              <li><a href="https://beauty.hotpepper.jp/" target="_blank" class="btn-border-1 jost-font font-17 fw-bolder px-5 py-2 bt-hvr hvr-grow ">ごはこちら</a></li>
+                        <h3 class="font-60">
+  <span class="fw-normal kiwi-maru-font text-second">CHERISH</span>
+  <span class="jost-font text-white fw-bolder">デトックスサロン</span>
+</h3>
+
+<h3 class="font-48">
+  <span class="fw-normal kiwi-maru-font text-second"></span>
+  <span class="jost-font text-white fw-bolder">心と体をゆるめ、緩めて、明日に繋ぐ場所</span>
+</h3>
+
+
+
+
+                           <ul class="d-flex justify-content-center list-unstyled gap-5 pt-3">
+                              <li><a href="https://beauty.hotpepper.jp/" target="_blank" class="btn-border-1 jost-font font-17 fw-bolder px-5 py-2 bt-hvr hvr-grow ">ご予約はこちら</a></li>
                               {{--
                               <li><a href="" class="btn-border-1 jost-font font-17 fw-bolder px-5 py-2 bt-hvr hvr-grow">Service Menu</a></li>
                               --}}
@@ -83,7 +96,7 @@
                </div>
             </div>
          </div>
-         <div class="container compny-details">
+         <div class="container compny-details d-none  d-lg-block  d-xl-none">
             <div class="row justify-content-center text-center">
                <div class="col-lg-4 mb-4">
                   <h4 class="font-18 fw-bold text-white text-uppercase jost-font ls-1 pb-4">CONTACT</h4>
@@ -110,34 +123,35 @@
             <!-- Heading -->
             <div class="row align-items-center g-4 g-lg-5 jost-font text-main ">
                <div class="col-lg-6">
-                  <h1 class="font-54 fw-bold mb-3">We build products that put people first</h1>
-                  <p class="font-18 fw-normal  mb-4">
-                     Since 2018, our team has delivered fast, reliable solutions for businesses of all sizes.
-                     We combine thoughtful design with robust engineering to create experiences users love.
+                  <h1 class="font-54 fw-bold mb-4">について</h1>
+
+
+                 <ul class="list-unstyled mb-4 font-13">
+  <li class="d-flex mb-2">
+    <div class="me-3 flex-shrink-0">
+      <span class="badge rounded-circle bg-danger p-2">✓</span>
+    </div>
+    <div>
+      <strong>カラダ</strong> → 水素吸入や天然鉱石を使った足湯、低温の岩盤浴などを組み合わせてデトックス
+    </div>
+  </li>
+
+  <li class="d-flex mb-2">
+    <div class="me-3 flex-shrink-0">
+      <span class="badge rounded-circle bg-danger p-2">✓</span>
+    </div>
+    <div>
+      <strong>ココロ</strong> → ご自身が選ばれた色をもとに、お話を聞き、今やちょっと先の未来を生きやすくするための後押し
+    </div>
+  </li>
+</ul>
+
+
+ <p class="font-14 fw-bolder pb-1">
+様々な環境や立場で頑張っている方や、人間関係に疲れを感じている方に、“自分を大切にする時間”を過ごしてほしい
                   </p>
-                  <!-- Value bullets -->
-                  <ul class="list-unstyled mb-4">
-                     <li class="d-flex mb-2">
-                        <div class="me-3 flex-shrink-0">
-                           <span class="badge rounded-circle bg-danger p-2">
-                           <span class="visually-hidden">check</span>✓
-                           </span>
-                        </div>
-                        <div><strong>User-centric:</strong> research-driven decisions at every step.</div>
-                     </li>
-                     <li class="d-flex mb-2">
-                        <div class="me-3 flex-shrink-0">
-                           <span class="badge rounded-circle bg-danger p-2">✓</span>
-                        </div>
-                        <div><strong>Reliable:</strong> clean architecture, tested releases, clear SLAs.</div>
-                     </li>
-                     <li class="d-flex">
-                        <div class="me-3 flex-shrink-0">
-                           <span class="badge rounded-circle bg-danger p-2">✓</span>
-                        </div>
-                        <div><strong>Transparent:</strong> open communication and honest timelines.</div>
-                     </li>
-                  </ul>
+
+
                </div>
                <!-- Image / media -->
                <div class="col-lg-6">
@@ -307,22 +321,44 @@
       <div class="container-fluid story-section py-5 bg-main">
          <div class="container pt-3 pb-5">
             <div class="row align-items-center pb-lg-5">
-               <div class="col-lg-6">
+               <div class="col-lg-6 col-sm-5">
                   <img    src="{{asset('/images/makeup-artits.png')}}" class="w-100" alt="CHERISH">
                </div>
-               <div class="col-lg-1"></div>
-               <div class="col-lg-5 jost-font text-main">
-                  <h2 class="font-40 fw-bold pb-3">Our Story</h2>
-                  <p class="font-18 fw-normal pb-2">We started as a small beauty studio in Pakistan. Our main idea was
-                     to create the best beauty studio in the world. Can there be compromises in the best studio in
-                     the world? Our answer is always no, we care about the best quality, we hire the best specialists
-                     and provide the best customer service. This approach allowed us to grow and create awesome team
-                     that is passionate about everything we do.
+
+               <div class="col-lg-6 col-sm-7 jost-font text-main">
+                  <h2 class="font-40 fw-bold pb-3">ご利用の流れ</h2>
+
+
+
+
+<table class="table table-bordered table-striped  align-middle font-14">
+  <thead class="table-dark">
+    <tr>
+      <th>コース</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1時間コース</td>
+      <td>着替え → 足湯（60分） → 着替え</td>
+    </tr>
+    <tr>
+      <td>2時間コース</td>
+      <td>着替え → 足湯（60分） → 岩盤浴（60分） → 着替え</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+                  <p class="font-15 fw-bolder pb-2">※いずれのコースもタオル・コース中の着替え完備。
+　シャワー利用も可能。
+
                   </p>
-                  <p class="pt-4 ">
-                     <a href="" class="py-2 px-5 btn-border font-16 fw-bold text-center hvr-bounce-to-right">Learn
-                     More</a>
-                  </p>
+
                </div>
             </div>
          </div>
@@ -340,19 +376,17 @@
       <div class="container-fluid follow-section py-5 ">
          <div class="container  ">
             <div class="row align-items-center ">
-               <div class="col-lg-5">
+               <div class="col-lg-5 col-sm-5">
                   <img    src="{{asset('/images/log02.png')}}" class="w-100" alt="CHERISH">
                </div>
-               <div class="col-lg-2 gradient-bar"></div>
-               <div class="col-lg-5 jost-font text-center">
+               <div class="col-lg-2 col-sm-2 gradient-bar"></div>
+               <div class="col-lg-5 col-sm-5 jost-font text-center">
                   <h2 class="font-40 fw-bold pb-3">Follow</h2>
                   <div class="row">
                      <div class="col-8  mx-auto">
                         <p class="font-18 fw-normal pb-2">Don’t miss promotions, follow us for the latest news</p>
                         <ul class="d-flex justify-content-center list-unstyled gap-4 font-24 text-main pt-3">
-                           {{--
-                           <li><a href="" target="_blank"  class="hvr-grow"><i class="fa-brands fa-twitter text-main"></i></a></li>
-                           --}}
+
                            <li><a href="https://www.tiktok.com/@cherish_fukuoka" target="_blank"  class="hvr-grow"><i class="fa-brands fa-tiktok text-main"></i></a></li>
                            <li><a href="https://www.youtube.com/channel/UCJwlS_qkGUo_bL4dA5wQ6oQ" target="_blank"  class="hvr-grow"><i class="fa-brands fa-youtube text-main"></i></a></li>
                            <li><a href="https://www.instagram.com/cherish20260110" target="_blank" class="hvr-grow"><i class="fa-brands fa-instagram text-main " ></i></a></li>
@@ -368,7 +402,7 @@
             <div class="col-12 section-d-top">
                <h2 class="font-40 fw-bold pb-5 jost-font text-main text-center">Gallery</h2>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-1.png')}}"   data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-1.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -377,7 +411,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-2.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-2.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -386,7 +420,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-3.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-3.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -395,7 +429,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-4.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-4.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -404,7 +438,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-8.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-8.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -413,7 +447,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-5.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-5.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -422,7 +456,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-6.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-6.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -431,7 +465,7 @@
                   </a>
                </div>
             </div>
-            <div class="col-lg-3 px-0">
+            <div class="col-lg-3 col-sm-3 px-0">
                <div class="hovereffect">
                   <a href="{{asset('/images/gallery-7.png')}}" data-lightbox="gallery" data-title="Image caption">
                      <img src="{{asset('/images/gallery-7.png')}}" class="img-fluid w-100" alt="CHERISH">
@@ -500,17 +534,7 @@
 
 
                </div>
-               {{--
-               <p class="font-16 fw-normal py-3">We started as a small beauty studio in Pakistan. Our main idea was
-                  to create the best beauty studio in the world. Can there be compromises in the best studio in
-                  the world? Our answer is always no, we care about the best quality, we hire the best specialists
-                  and provide the best customer service. This approach allowed us to grow and create awesome team
-                  that is passionate about everything we do.
-               </p>
-               <p class="pt-4 ">
-                  <a href="" class="py-2 px-5 btn-border font-16 fw-bold text-center hvr-bounce-to-right">View Service Menu</a>
-               </p>
-               --}}
+
             </div>
          </div>
       </div>
@@ -525,20 +549,20 @@
 
       <div class="container-fluid opening-section py-5 bg-white">
          <div class="row  py-3 text-center text-main">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4">
                <img src="{{asset('/images/mobile.png')}}" class="w-auto mx-auto" alt="CHERISH">
                <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">CONTACT</h4>
                <p class="fw-normal jost-font font-16 pb-1"> <a href="tel:07094857568" class="text-a"> 070 9485 7568</a></p>
                <p class=" fw-normal jost-font font-16"><a href="mailto:info@beautysalon.com" class="text-a">info@beautysalon.com</a></p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4">
                <img src="{{asset('/images/clock.png')}}" class="w-auto mx-auto" alt="CHERISH">
                <h4 class="font-20 fw-bold text-main text-uppercase ls-2  py-3">HOURS</h4>
                <p class="fw-normal jost-font font-16 pb-1 text-a">  Mon to Fri: 7:30 am — 1:00 am</p>
                <p class=" fw-normal jost-font font-16 pb-1 text-a">Sat: 9:00 am — 1:00 am</p>
                <p class=" fw-normal jost-font font-16 pb-1 text-a">Sun: 9:00 am — 11:30 pm</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4">
                <img src="{{asset('/images/location.png')}}" class="w-auto mx-auto" alt="CHERISH">
                <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">LOCATION</h4>
                <p class=" fw-normal jost-font font-16 pb-1 text-a">1-chōme-206</p>
@@ -550,14 +574,14 @@
       <div class="container-fluid footer-section py-5 bg-second">
          <div class="container  pt-3">
             <div class="row align-items-center">
-               <div class="col-lg-3">
+               <div class="col-lg-3 col-sm-3">
                   <a href="{{ route('home') }}" title="CHERISH | Home Page">
                   <img src="{{asset('/images/log02.png')}}" class="w-100" alt="CHERISH">
                   </a>
                </div>
-               <div class="col-lg-1">
+               <div class="col-lg-1 col-sm-1">
                </div>
-               <div class="col-lg-4">
+               <div class="col-lg-4 col-sm-3">
                   <h4 class="font-18 fw-bold text-main text-uppercase pb-3">QUICK LINKS</h4>
                   <ul class="list-unstyled m-0 p-0">
                      <li class="pb-2">
@@ -582,7 +606,7 @@
                      </li>
                   </ul>
                </div>
-               <div class="col-lg-4 text-center">
+               <div class="col-lg-4 col-sm-4 text-center">
                   <h2 class="font-24 fw-bold pb-3">Contact Us</h2>
                   <div class="row">
                      <div class="col-8  mx-auto">
@@ -684,9 +708,8 @@
         // keep the “peek” feel on smaller screens too
         responsive: {
           0:   { items: 1, stagePadding: 30, margin: 10 },
-          576: { items: 1, stagePadding: 60, margin: 10 },
-          768: { items: 2, stagePadding: 80 },
-          1170:{ items: 2, stagePadding: 50 }
+          600: { items: 2, stagePadding: 80 },
+          1000:{ items: 2, stagePadding: 50 }
         }
       });
 
