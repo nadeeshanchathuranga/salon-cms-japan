@@ -230,6 +230,9 @@ ul li {
   transition: transform 0.6s ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .hovereffect .overlay {
   position: absolute;
   top: 0;
@@ -508,4 +511,7 @@ bottom: auto;
 .owl-dots .owl-dot:hover span {
     background: #230A01;
     transform: scale(1.2);
+}
+.sidenav{
+    display: none;
 }

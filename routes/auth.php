@@ -12,27 +12,36 @@ use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {
-    Route::get('register', [RegisteredUserController::class, 'create'])
-        ->name('register');
+    // Redirect all unwanted auth URLs to login
+    Route::get('register', function () {
+        return redirect()->route('login');
+    });
 
-    Route::post('register', [RegisteredUserController::class, 'store']);
+    Route::post('register', function () {
+        return redirect()->route('login');
+    });
 
+    Route::get('forgot-password', function () {
+        return redirect()->route('login');
+    });
+
+    Route::post('forgot-password', function () {
+        return redirect()->route('login');
+    });
+
+    Route::get('reset-password/{token}', function () {
+        return redirect()->route('login');
+    });
+
+    Route::post('reset-password', function () {
+        return redirect()->route('login');
+    });
+
+    // Only allow login
     Route::get('login', [AuthenticatedSessionController::class, 'create'])
         ->name('login');
 
     Route::post('login', [AuthenticatedSessionController::class, 'store']);
-
-    Route::get('forgot-password', [PasswordResetLinkController::class, 'create'])
-        ->name('password.request');
-
-    Route::post('forgot-password', [PasswordResetLinkController::class, 'store'])
-        ->name('password.email');
-
-    Route::get('reset-password/{token}', [NewPasswordController::class, 'create'])
-        ->name('password.reset');
-
-    Route::post('reset-password', [NewPasswordController::class, 'store'])
-        ->name('password.store');
 });
 
 Route::middleware('auth')->group(function () {
