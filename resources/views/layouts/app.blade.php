@@ -18,9 +18,9 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
- @vite(['resources/css/app.css', 'resources/js/app.js'])>
-
-
+ {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+ <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
+  <script src="{{ url('js/app.js') }}"></script>
         <style>
 body{
   font-family: "Jost", sans-serif;
@@ -50,7 +50,7 @@ body{
           <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <!-- Bootstrap 5 JS (bundle includes Popper) -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-      <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
+
 
 <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
@@ -61,6 +61,16 @@ $(document).ready(function () {
         pageLength: 10,
         order: [[0, 'desc']],
     });
+
+
+     $('#testimonialsTable').DataTable({
+        pageLength: 10,
+        order: [[0, 'desc']],
+    });
 });
+
+
+
+
 </script>
 </html>
