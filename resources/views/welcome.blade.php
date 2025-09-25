@@ -65,8 +65,8 @@
 
                </nav>
             </div>
-           
-            
+
+
          </div>
       </div>
       <div class="container-fluid slider-section  ">
@@ -77,19 +77,19 @@
                      <div class="carousel-item active">
                         <img src="{{ asset('/images/salon-banner.png') }}" class="d-block w-100" alt="Cherish">
                         <div class="carousel-caption  ">
-                           <h3 class="font-60">
+                           <h3 class="font-84">
                               <span class="fw-normal kiwi-maru-font text-second">CHERISH</span>
                            </h3>
-                           <h3 class="font-54">
+                           <h3 class="font-40 pt-3">
                               <span class="jost-font text-white fw-bolder">デトックスサロン</span>
                            </h3>
-                           <h3 class="font-48 pt-lg-4 pb-lg-3 py-2">
-                              <span class="fw-normal kiwi-maru-font text-second"></span>
+                           <h3 class="font-27 pt-lg-4 pb-lg-3 py-2 fst-italic">
+
                               <span class="jost-font text-white fw-bolder">心と体をゆるめ、緩めて、明日に繋ぐ場所</span>
                            </h3>
-                           <ul class="d-flex justify-content-center list-unstyled gap-5 pt-3">
+                           <ul class="d-flex justify-content-center list-unstyled gap-5 ">
                               <li><a href="https://beauty.hotpepper.jp/" target="_blank"
-                                 class="btn-border-1 jost-font font-24 text-white fw-bolder px-lg-5 px-2 py-lg-3 py-1 bt-hvr hvr-grow ">ご予約はこちら</a>
+                                 class="btn-border-1 jost-font font-20 text-white fw-bolder px-lg-5 px-2 py-lg-3 py-1 bt-hvr hvr-grow ">ご予約はこちら</a>
                               </li>
                               {{--
                               <li><a href="" class="btn-border-1 jost-font font-17 fw-bolder px-5 py-2 bt-hvr hvr-grow">サービス一覧</a></li>
@@ -105,11 +105,10 @@
             <div class="row justify-content-center text-center">
                <div class="col-lg-4 mb-4">
                   <h4 class="font-18 fw-bold text-white text-uppercase jost-font ls-1 pb-4">CONTACT</h4>
-                  <p class="fw-normal jost-font font-16 pb-1"> <a href="tel:07094857568" class="text-white">070
-                     9485 7568</a>
+                  <p class="fw-normal jost-font font-16 pb-1"> <a href="tel:080XXXXXXXX" class="text-white">080 XXXX XXXX</a>
                   </p>
-                  <p class="fw-normal jost-font font-16"><a href="mailto:info@beautysalon.com"
-                     class="text-white">info@beautysalon.com</a></p>
+                  <p class="fw-normal jost-font font-16"><a href="mailto:cherish.fukuoka260101@gmail.com"
+                     class="text-white">cherish.fukuoka260101@gmail.com</a></p>
                </div>
                <div class="col-lg-4 mb-4">
                   <h4 class="font-18 fw-bold text-white text-uppercase jost-font ls-1 pb-4">HOURS</h4>
@@ -328,14 +327,73 @@
       <div class="container-fluid story-section py-5 bg-main"  id="story">
          <div class="container pt-3 pb-5">
             <div class="row align-items-center pb-lg-5">
-               <div class="col-lg-6 col-sm-5">
+               <div class="col-lg-6  col-12">
                   <img src="{{ asset('/images/coming-soon.png') }}" class="w-100" alt="CHERISH">
                </div>
-               <div class="col-lg-6 col-sm-7 jost-font text-main pt-lg-0 pt-sm-0 pt-3">
+               <div class="col-lg-6   col-12 jost-font text-main pt-lg-0 pt-sm-0 pt-3">
                   <h2 class="font-40 fw-bold pb-3">ご利用の流れ</h2>
                   <p class="font-15 fw-bolder pb-2">※いずれのコースもタオル・コース中の着替え完備。
                      シャワー利用も可能。
                   </p>
+
+<h2 class="font-30 fw-bold pb-3">CHERISH（チェリッシュ）とは</h2>
+ <p class="font-15 fw-bolder pb-2">
+CHERISH（チェリッシュ）は、がんばりすぎてしまう毎日の中で<br>
+「自分を大切にできる場所をつくりたい」<br>
+そんな思いから生まれました。
+</p>
+
+ <p class="font-15 fw-bolder pb-2">
+わたしたちは、水素吸入と天然鉱石を使った足湯や低温の岩盤浴サウナを掛け合わせ、デトックスを行い、色彩心理カウンセリングなどを通して、ココロに目を向ける。<br>
+心と身体を静かにゆるめるための、穏やかな時間を過ごす<br>
+“自分を大切にする習慣” を届けています。
+</p>
+
+<h2 class="font-24 fw-bold pb-3">CHERISHが大切にしていること</h3>
+
+<h2 class="font-20 fw-bold pb-3">【日常に寄り添うデトックス】</h4>
+ <p class="font-15 fw-bolder pb-2">
+無理なく通える価格と時間で、続けられるケアを。
+</p>
+
+<h2 class="font-20 fw-bold pb-3">【本物に触れる安心感】</h4>
+ <p class="font-15 fw-bolder pb-2">
+厳選した機器や天然鉱石を導入し、質を落とさず心地よさを追求。
+</p>
+
+<h2 class="font-20 fw-bold pb-3">【心も身体も緩める空間】</h4>
+ <p class="font-15 fw-bolder pb-2">
+忙しい日常から少し離れて、素の自分に戻れるような場所に。
+</p>
+
+<h2 class="font-20 fw-bold pb-3">【名前に込めた想い】</h4>
+ <p class="font-15 fw-bolder pb-2">
+CHERISH＝大切にする、愛おしむ。<br>
+ここで過ごす時間が「自分を大切にするきっかけ」となり、<br>
+その優しさがまた周りの人へも広がっていくことを願っています。
+</p>
+
+ <p class="font-15 fw-bolder pb-2">
+CHERISHは、訪れるたびに「また明日も頑張ろう」と思えるような<br>
+心と身体のリセット空間を目指しています。
+</p>
+
+ <p class="font-15 fw-bolder pb-2">
+初めて来てくださる方も、何度も通ってくださる方も、<br>
+「ここに来ると整う」と感じていただけるように。
+</p>
+
+ <p class="font-15 fw-bolder pb-2">
+ここから、あなた自身の物語がまた新しく始まりますように。
+</p>
+
+
+
+
+
+
+
+
                </div>
             </div>
          </div>
@@ -344,9 +402,8 @@
          <div class="container py-5">
             <div class="row align-items-center py-5">
                <div class="col-lg-9 mx-auto text-center text-main">
-                  <h2 class="font-40 fw-bold pb-3 jost-font">As seen On</h2>
-                  <p class="font-40 kiwi-maru-font  fw-normal  ">"The place with its constant excellence, soul, and
-                     style"
+                  <h2 class="font-48 fw-bold pb-3 jost-font">メディア掲載</h2>
+                  <p class="font-36 kiwi-maru-font  fw-normal">"常に高い品質と心のこもったサービス、そして洗練されたスタイルが魅力の場所"
                   </p>
                </div>
             </div>
@@ -367,14 +424,14 @@
                         </p>
                         <ul class="d-flex justify-content-center list-unstyled gap-4 font-24 text-main pt-3">
                            <li><a href="https://www.tiktok.com/@cherish_fukuoka" target="_blank"
-                              class="hvr-grow"><i class="fa-brands fa-tiktok text-main"></i></a></li>
+                              class="hvr-grow"><i class="fa-brands fa-tiktok text-main fs-3"></i></a></li>
                            <li><a href="https://www.youtube.com/channel/UCJwlS_qkGUo_bL4dA5wQ6oQ" target="_blank"
-                              class="hvr-grow"><i class="fa-brands fa-youtube text-main"></i></a></li>
+                              class="hvr-grow"><i class="fa-brands fa-youtube text-main fs-3"></i></a></li>
                            <li><a href="https://www.instagram.com/cherish20260110" target="_blank"
-                              class="hvr-grow"><i class="fa-brands fa-instagram text-main "></i></a></li>
+                              class="hvr-grow"><i class="fa-brands fa-instagram text-main fs-3"></i></a></li>
                            <li>
-                              <a href="https://line.me/ti/p/your-line-id" target="_blank" class="hvr-grow">
-                              <i class="fa-brands fa-line text-main"></i>
+                              <a href="https://line.me/R/ti/p/@447flqxy" target="_blank" class="hvr-grow">
+                              <i class="fa-brands fa-line text-main fs-3"></i>
                               </a>
                            </li>
                         </ul>
@@ -384,7 +441,7 @@
             </div>
          </div>
       </div>
-      {{-- 
+      {{--
       <div class="container-fluid gallery-container py-5 bg-main">
          <div class="row pt-3 pb-4">
             <div class="col-12 section-d-top">
@@ -492,7 +549,7 @@
                                  <img class="img-circle"
                                     src="{{ asset('storage/' . $testimonial->image_path) }}"
                                     alt="Photo of Emiliano Aquilani">
-                                 <p>{{ $testimonial->content }}</p>
+                                  <p class="font-15 fw-bolder pb-2">{{ $testimonial->content }}</p>
                               </div>
                               <div class="testimonial-name">{{ $testimonial->name }}</div>
                            </div>
@@ -509,23 +566,22 @@
          <div class="row  py-3 text-center text-main">
             <div class="col-lg-4 col-sm-4">
                <img src="{{ asset('/images/mobile.png') }}" class="w-auto mx-auto" alt="CHERISH">
-               <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">CONTACT</h4>
-               <p class="fw-normal jost-font font-16 pb-1"> <a href="tel:07094857568" class="text-a"> 070 9485
-                  7568</a>
+               <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">お問い合わせ</h4>
+               <p class="fw-normal jost-font font-16 pb-1"> <a href="tel:080XXXXXXXX" class="text-a">080 XXXX XXXX</a>
                </p>
-               <p class=" fw-normal jost-font font-16"><a href="mailto:info@beautysalon.com"
-                  class="text-a">info@beautysalon.com</a></p>
+               <p class=" fw-normal jost-font font-16"><a href="mailto:cherish.fukuoka260101@gmail.com"
+                  class="text-a">cherish.fukuoka260101@gmail.com</a></p>
             </div>
             <div class="col-lg-4 col-sm-4">
                <img src="{{ asset('/images/clock.png') }}" class="w-auto mx-auto" alt="CHERISH">
-               <h4 class="font-20 fw-bold text-main text-uppercase ls-2  py-3">HOURS</h4>
+               <h4 class="font-20 fw-bold text-main text-uppercase ls-2  py-3">営業時間</h4>
                <p class="fw-normal jost-font font-16 pb-1 text-a"> Mon to Fri: 7:30 am — 1:00 am</p>
                <p class=" fw-normal jost-font font-16 pb-1 text-a">Sat: 9:00 am — 1:00 am</p>
                <p class=" fw-normal jost-font font-16 pb-1 text-a">Sun: 9:00 am — 11:30 pm</p>
             </div>
             <div class="col-lg-4 col-sm-4">
                <img src="{{ asset('/images/location.png') }}" class="w-auto mx-auto" alt="CHERISH">
-               <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">LOCATION</h4>
+               <h4 class="font-20 fw-bold text-main text-uppercase ls-2 py-3">所在地</h4>
                <p class=" fw-normal jost-font font-16 pb-1 text-a">1-chōme-206</p>
                <p class=" fw-normal jost-font font-16 pb-1 text-a"> Hikida, Kanazawa, Ishikawa</p>
                <p class=" fw-normal jost-font font-16 pb-1 text-a">920-0003, Japan</p>
@@ -571,35 +627,7 @@
                </nav>
                <!-- Contact / Social -->
                <div class="col-12 col-sm-12 col-lg-4 text-start">
-                  <h2 class="h5 fw-bold pb-2 m-0">お問い合わせ</h2>
-                  <p class="font-15 mb-2">お得なキャンペーン情報をお見逃しなく！最新ニュースを知りたい方は、ぜひフォローしてください。
-                  </p>
-                  <ul class="d-flex justify-content-start list-unstyled gap-4 font-18 pt-2 m-0">
-                     <li>
-                        <a href="https://www.tiktok.com/@cherish_fukuoka" target="_blank" rel="noopener"
-                           class="hvr-grow" aria-label="TikTok">
-                        <i class="fa-brands fa-tiktok text-main"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="https://www.youtube.com/channel/UCJwlS_qkGUo_bL4dA5wQ6oQ" target="_blank"
-                           rel="noopener" class="hvr-grow" aria-label="YouTube">
-                        <i class="fa-brands fa-youtube text-main"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="https://www.instagram.com/cherish20260110" target="_blank" rel="noopener"
-                           class="hvr-grow" aria-label="Instagram">
-                        <i class="fa-brands fa-instagram text-main"></i>
-                        </a>
-                     </li>
-                     <li>
-                        <a href="https://line.me/ti/p/your-line-id" target="_blank" rel="noopener"
-                           class="hvr-grow" aria-label="Instagram">
-                        <i class="fa-brands fa-line text-main"></i>
-                        </a>
-                     </li>
-                  </ul>
+
                   <h3 class="h6 fw-bold text-main text-uppercase pt-4 pb-3 m-0">お支払方法</h3>
                   <div class="row g-3">
                      <!-- Card Payment -->
@@ -618,12 +646,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-10 mx-auto text-center  ">
-                  <p>
-                     <a class="btn-border-1 jost-font font-18 text-dark fw-bolder px-lg-5 px-3 py-3 bt-hvr hvr-grow ">お得なキャンペーン情報をお見逃しなく！最新ニュースを知りたい方は、ぜひフォローしてください。
-                     </a>
-                  </p>
-               </div>
+
             </div>
          </div>
       </footer>
@@ -650,8 +673,8 @@
    </body>
    <script>
       document.getElementById("year").textContent = new Date().getFullYear();
-  
-      
+
+
       $('.service-carousel').owlCarousel({
           loop: true,
           dots: true,
@@ -677,25 +700,25 @@
               }
           }
       });
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       jQuery(function($) {
           "use strict";
-      
+
           $('#customers-testimonials').owlCarousel({
               loop: true,
               center: true,
@@ -723,15 +746,15 @@
                   }
               }
           });
-      
-      
-      
-      
+
+
+
+
       });
    </script>
 
 
 <script>
- 
+
 </script>
 </html>
