@@ -14,9 +14,11 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
-      <link
-         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kiwi+Maru&display=swap"
-         rel="stylesheet">
+    
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+
       <link href="{{ asset('css/lightbox.min.css') }}" rel="stylesheet">
       <link href="{{ asset('css/hover.css') }}" rel="stylesheet">
       <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -41,23 +43,23 @@
                  <div class="collapse navbar-collapse" id="navbarNav">
   <ul class="navbar-nav mx-auto navbar-custom">
     <li class="nav-item">
-      <a class="nav-link active font-18 jost-font text-white fw-bolder px-5"
+      <a class="nav-link active font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
          aria-current="page" href="#home">ホーム</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder px-5"
+      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
          href="#about">私たちについて</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder px-5"
+      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
          href="#services">サービス一覧</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder px-5"
+      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
          href="#story">Cherish のストーリー</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder px-5"
+      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
          href="#contact">お問い合わせ</a>
     </li>
   </ul>
@@ -77,17 +79,13 @@
                      <div class="carousel-item active">
                         <img src="{{ asset('/images/salon-banner.png') }}" class="d-block w-100" alt="Cherish">
                         <div class="carousel-caption  ">
-                           <h3 class="font-84">
-                              <span class="fw-normal kiwi-maru-font text-second">CHERISH</span>
+                           <h3 class="font-144 fw-bold kiwi-maru-font text-second ls-2">CHERISH</span>
                            </h3>
-                           <h3 class="font-40 pt-3">
-                              <span class="jost-font text-white fw-bolder">デトックスサロン</span>
+                           <h3 class="font-48 pt-2 jost-font text-white fw-bolder">デトックスサロン</span>
                            </h3>
-                           <h3 class="font-27 pt-lg-4 pb-lg-3 py-2 fst-italic">
-
-                              <span class="jost-font text-white fw-bolder">心と体をゆるめ、緩めて、明日に繋ぐ場所</span>
+                           <h3 class="font-27 pt-2 py-2 fst-italic jost-font text-white fw-bolder">心と体をゆるめ、緩めて、明日に繋ぐ場所</span>
                            </h3>
-                           <ul class="d-flex justify-content-center list-unstyled gap-5 ">
+                           <ul class="d-flex justify-content-center list-unstyled gap-5 pt-lg-3 pt-1">
                               <li><a href="https://beauty.hotpepper.jp/" target="_blank"
                                  class="btn-border-1 jost-font font-20 text-white fw-bolder px-lg-5 px-2 py-lg-3 py-1 bt-hvr hvr-grow ">ご予約はこちら</a>
                               </li>
@@ -131,22 +129,17 @@
             <div class="row align-items-center g-4 g-lg-5 jost-font text-main ">
                <div class="col-lg-6">
                   <h1 class="font-54 fw-bold mb-4">私たちについて</h1>
-                  <ul class="list-unstyled mb-4 font-13">
+                  <ul class="custom-bullets mb-4 font-14">
                      <li class="d-flex mb-2">
-                        <div class="me-3 flex-shrink-0">
-                           <span class="badge rounded-circle bg-danger p-2">✓</span>
-                        </div>
-                        <div>
+                        
                            <strong>カラダ</strong> → 水素吸入や天然鉱石を使った足湯、低温の岩盤浴などを組み合わせてデトックス
-                        </div>
+                        
                      </li>
                      <li class="d-flex mb-2">
-                        <div class="me-3 flex-shrink-0">
-                           <span class="badge rounded-circle bg-danger p-2">✓</span>
-                        </div>
-                        <div>
+                         
+                      
                            <strong>ココロ</strong> → ご自身が選ばれた色をもとに、お話を聞き、今やちょっと先の未来を生きやすくするための後押し
-                        </div>
+                         
                      </li>
                   </ul>
                   <p class="font-14 fw-bolder pb-1">
@@ -310,8 +303,8 @@
                   </div>
                   @endif
                </div>
-               {{--
-               <p class="font-16 fw-normal py-3">We started as a small beauty studio in Pakistan. Our main idea was
+              
+               <!-- <p class="font-16 fw-normal py-3">We started as a small beauty studio in Pakistan. Our main idea was
                   to create the best beauty studio in the world. Can there be compromises in the best studio in
                   the world? Our answer is always no, we care about the best quality, we hire the best specialists
                   and provide the best customer service. This approach allowed us to grow and create awesome team
@@ -319,77 +312,100 @@
                </p>
                <p class="pt-4 ">
                   <a href="" class="py-2 px-5 btn-border font-16 fw-bold text-center hvr-bounce-to-right">View サービス一覧</a>
-               </p>
-               --}}
+               </p> -->
+             
             </div>
          </div>
       </div>
       <div class="container-fluid story-section py-5 bg-main"  id="story">
          <div class="container pt-3 pb-5">
             <div class="row align-items-center pb-lg-5">
-               <div class="col-lg-6  col-12">
+               <!-- <div class="col-lg-6  col-12">
                   <img src="{{ asset('/images/coming-soon.png') }}" class="w-100" alt="CHERISH">
-               </div>
-               <div class="col-lg-6   col-12 jost-font text-main pt-lg-0 pt-sm-0 pt-3">
-                  <h2 class="font-40 fw-bold pb-3">ご利用の流れ</h2>
-                  <p class="font-15 fw-bolder pb-2">※いずれのコースもタオル・コース中の着替え完備。
-                     シャワー利用も可能。
-                  </p>
+               </div> -->
+               <div class=" col-lg-8 col-sm-10 mx-auto text-start jost-font text-main">
+                  
 
-<h2 class="font-30 fw-bold pb-3">CHERISH（チェリッシュ）とは</h2>
- <p class="font-15 fw-bolder pb-2">
-CHERISH（チェリッシュ）は、がんばりすぎてしまう毎日の中で<br>
-「自分を大切にできる場所をつくりたい」<br>
-そんな思いから生まれました。
+<h1 class="font-40 fw-bold pb-3 text-center pb-4">CHERISH（チェリッシュ）について</h1>
+ <p class="fw-normal jost-font font-16 mb-2">
+  CHERISH（チェリッシュ）は、がんばりすぎてしまう毎日の中で
+</p>
+ <p class="fw-normal jost-font font-16 mb-2">
+  <strong>「自分を大切にできる場所をつくりたい」</strong>
+</p>
+   <p class="fw-normal jost-font font-16 mb-2">
+  そんな思いから生まれました。
 </p>
 
- <p class="font-15 fw-bolder pb-2">
-わたしたちは、水素吸入と天然鉱石を使った足湯や低温の岩盤浴サウナを掛け合わせ、デトックスを行い、色彩心理カウンセリングなどを通して、ココロに目を向ける。<br>
-心と身体を静かにゆるめるための、穏やかな時間を過ごす<br>
-“自分を大切にする習慣” を届けています。
+  <p class="fw-normal jost-font font-16 mb-2">
+  わたしたちは、水素吸入と天然鉱石を使った足湯や低温の岩盤浴サウナを掛け合わせ、デトックスを行い、
+</p>
+  <p class="fw-normal jost-font font-16 mb-2">
+  色彩心理カウンセリングなどを通して、ココロに目を向ける。
+</p>
+  <p class="fw-normal jost-font font-16 mb-2">
+  心と身体を静かにゆるめるための、穏やかな時間を過ごす
+</p>
+  <p class="fw-normal jost-font font-16 mb-2">
+  <strong>“自分を大切にする習慣”</strong>
+</p>
+  <p class="fw-normal jost-font font-16 mb-2">
+  を届けています。
 </p>
 
-<h2 class="font-24 fw-bold pb-3">CHERISHが大切にしていること</h3>
+<h2  class="font-30 fw-bold pb-3 text-center pt-2 pb-4">CHERISH が大切にしていること</h2>
+<ul class="custom-bullets">
+  <li class="mb-4">
+    <span class="fw-bold text-main d-block mb-2">【日常に寄り添うデトックス】</span>
+    <p class="fw-normal jost-font font-16 mb-0">
+      無理なく通える価格と時間で、続けられるケアを。
+    </p>
+  </li>
 
-<h2 class="font-20 fw-bold pb-3">【日常に寄り添うデトックス】</h4>
- <p class="font-15 fw-bolder pb-2">
-無理なく通える価格と時間で、続けられるケアを。
-</p>
+  <li class="mb-4">
+    <span class="fw-bold text-main d-block mb-2">【本物に触れる安心感】</span>
+    <p class="fw-normal jost-font font-16 mb-0">
+      厳選した機器や天然鉱石を導入し、質を落とさず心地よさを追求。
+    </p>
+  </li>
 
-<h2 class="font-20 fw-bold pb-3">【本物に触れる安心感】</h4>
- <p class="font-15 fw-bolder pb-2">
-厳選した機器や天然鉱石を導入し、質を落とさず心地よさを追求。
-</p>
+  <li class="mb-4">
+    <span class="fw-bold text-main d-block mb-2">【心も身体も緩める空間】</span>
+    <p class="fw-normal jost-font font-16 mb-0">
+      忙しい日常から少し離れて、素の自分に戻れるような場所に。
+    </p>
+  </li>
 
-<h2 class="font-20 fw-bold pb-3">【心も身体も緩める空間】</h4>
- <p class="font-15 fw-bolder pb-2">
-忙しい日常から少し離れて、素の自分に戻れるような場所に。
-</p>
-
-<h2 class="font-20 fw-bold pb-3">【名前に込めた想い】</h4>
- <p class="font-15 fw-bolder pb-2">
-CHERISH＝大切にする、愛おしむ。<br>
-ここで過ごす時間が「自分を大切にするきっかけ」となり、<br>
-その優しさがまた周りの人へも広がっていくことを願っています。
-</p>
-
- <p class="font-15 fw-bolder pb-2">
-CHERISHは、訪れるたびに「また明日も頑張ろう」と思えるような<br>
-心と身体のリセット空間を目指しています。
-</p>
-
- <p class="font-15 fw-bolder pb-2">
-初めて来てくださる方も、何度も通ってくださる方も、<br>
-「ここに来ると整う」と感じていただけるように。
-</p>
-
- <p class="font-15 fw-bolder pb-2">
-ここから、あなた自身の物語がまた新しく始まりますように。
-</p>
-
-
-
-
+  <li class="mb-4">
+    <span class="fw-bold text-main d-block mb-2">【名前に込めた想い】</span>
+    <p class="fw-normal jost-font font-16 mb-2">
+      CHERISH＝大切にする、愛おしむ。
+    </p>
+    <p class="fw-normal jost-font font-16 mb-2">
+      ここで過ごす時間が「自分を大切にするきっかけ」となり、
+    </p>
+    <p class="fw-normal jost-font font-16 mb-0">
+      その優しさがまた周りの人へも広がっていくことを願っています。
+    </p>
+  </li>
+</ul>
+<div class="cherish-message">
+  <p class="fw-bolder jost-font font-18 pb-2">
+    CHERISHは、訪れるたびに「また明日も頑張ろう」と思えるような
+  </p>
+ <p class="fw-bolder jost-font font-18 pb-2">
+    心と身体のリセット空間を目指しています。
+  </p>
+  <p class="fw-bolder jost-font font-18 pb-2">
+    初めて来てくださる方も、何度も通ってくださる方も、
+  </p>
+  <p class="fw-bolder jost-font font-18 pb-2">
+    「ここに来ると整う」と感じていただけるように。
+  </p>
+ <p class="fw-bolder jost-font font-18 pb-2">
+    ここから、あなた自身の物語がまた新しく始まりますように。
+  </p>
+</div>
 
 
 

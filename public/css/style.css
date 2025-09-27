@@ -124,15 +124,18 @@ ul li {
 .font-84 {
     font-size: 84px;
 }
+.font-144 {
+    font-size: 144px;
+}
+
 
 
 .kiwi-maru-font {
-  font-family: "Kiwi Maru", serif;
-
+ font-family: "Zen Kaku Gothic New", sans-serif;
 }
 
 .jost-font {
-  font-family: "Jost", sans-serif;
+font-family: "Zen Kaku Gothic New", sans-serif;
 
 }
 .bg-main {
@@ -267,9 +270,10 @@ html {
 }
 
 .carousel-caption {
-  top: 50%;
+  top: 47%;
   transform: translateY(-50%);
   bottom: auto;
+ 
 }
 
 .btn-border-1 {
@@ -517,4 +521,39 @@ bottom: auto;
 }
 .sidenav{
     display: none;
+}
+ 
+
+ .custom-bullets {
+  list-style: none;   /* remove default bullet */
+  padding-left: 0;
+}
+
+.custom-bullets li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.custom-bullets li::before {
+ content: "●";         
+  position: absolute;
+  left: 0;
+  color: #b6735d;            /* brand color */
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+ 
+
+
+
+
+
+.cherish-message {
+  background: #F6EBE7; /* soft bg highlight */
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border-left: 6px solid #b6735d;
 }
