@@ -33,7 +33,7 @@ class TestimonialController extends Controller
     // Validate incoming request
     $validated = $request->validate([
         'name'       => 'required|string|max:255',
-        'content' => 'nullable|string',
+        'content' => 'required|string',
         'image'       => [
         'nullable',
         'image',
@@ -86,7 +86,7 @@ class TestimonialController extends Controller
     {
         $data = $request->validate([
             'name'      => ['required','string','max:255'],
-            'content'   => ['nullable','string'],
+            'content'   => ['required','string'],
             'is_active' => ['required','in:0,1'],
             'image'     => ['nullable','image','mimes:jpg,jpeg,png,webp,gif','max:2048','dimensions:width=150,height=150'],
         ]);

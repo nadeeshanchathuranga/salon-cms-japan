@@ -26,8 +26,8 @@
 
             <!-- Description -->
             <div class="col-12">
-              <label class="form-label">Content</label>
-              <textarea name="content" class="form-control" rows="4">{{ old('content') }}</textarea>
+              <label class="form-label">Content <span class="text-danger">*</span></label>
+              <textarea name="content" class="form-control" rows="4" required>{{ old('content') }}</textarea>
               @error('content') <div class="text-danger small">{{ $message }}</div> @enderror
             </div>
 

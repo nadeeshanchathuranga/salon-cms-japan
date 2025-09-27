@@ -24,7 +24,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="form-group">
-                  <label for="name{{ $testimonial->id }}">Name</label>
+                  <label for="name{{ $testimonial->id }}">Name <span class="text-danger">*</span></label>
                   <input type="text" class="form-control" name="name" id="title{{ $testimonial->id }}"
                          value="{{ old('name', $testimonial->name) }}" required>
                 </div>
@@ -35,7 +35,7 @@
               <div class="col-12">
                 <div class="form-group">
                   <label for="content{{ $testimonial->id }}">Content</label>
-                  <textarea class="form-control" name="content" id="content{{ $testimonial->id }}" rows="3">{{ old('content', $testimonial->content) }}</textarea>
+                  <textarea class="form-control" name="content" id="content{{ $testimonial->id }}" rows="3" required>{{ old('content', $testimonial->content) }}</textarea>
                 </div>
               </div>
             </div>

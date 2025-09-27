@@ -35,7 +35,7 @@
               <div class="col-12">
                 <div class="form-group">
                   <label for="description{{ $service->id }}">Description</label>
-                  <textarea class="form-control" name="description" id="description{{ $service->id }}" rows="3">{{ old('description', $service->description) }}</textarea>
+                  <textarea  required class="form-control" name="description" id="description{{ $service->id }}" rows="3">{{ old('description', $service->description) }}</textarea>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="price{{ $service->id }}">Price</label>
-                  <input type="number" step="0.01" class="form-control" name="price" id="price{{ $service->id }}"
+                  <input type="number"  step="0.01" class="form-control" name="price" id="price{{ $service->id }}"
                          value="{{ old('price', $service->price) }}" required>
                 </div>
               </div>

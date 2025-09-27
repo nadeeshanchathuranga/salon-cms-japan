@@ -61,6 +61,7 @@
                                  alt="service image">
                         @else
                             <span class="text-muted">No image</span>
+                            
                         @endif
                     </td>
 

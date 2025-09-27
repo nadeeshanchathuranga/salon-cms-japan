@@ -25,11 +25,14 @@
             </div>
 
             <!-- Description -->
-            <div class="col-12">
-              <label class="form-label">Description</label>
-              <textarea name="description" class="form-control" rows="4">{{ old('description') }}</textarea>
-              @error('description') <div class="text-danger small">{{ $message }}</div> @enderror
-            </div>
+           <div class="col-12">
+    <label class="form-label">Description <span class="text-danger">*</span></label>
+    <textarea name="description" class="form-control" rows="4" required>{{ old('description') }}</textarea>
+    @error('description') 
+        <div class="text-danger small">{{ $message }}</div> 
+    @enderror
+</div>
+
 
             <!-- Price -->
             <div class="col-md-6">
@@ -40,8 +43,8 @@
 
             <!-- Image -->
             <div class="col-md-6">
-              <label class="form-label">Image ( Size Width 350px * Height 200px)</label>
-              <input type="file" name="image" class="form-control" accept="image/*">
+              <label class="form-label">Image ( Size Width 350px * Height 200px)  </label>
+              <input type="file" name="image" class="form-control" accept="image/*" required>
               @error('image') <div class="text-danger small">{{ $message }}</div> @enderror
               <div class="form-text">Supported: jpeg, png, jpg, gif, svg</div>
             </div>

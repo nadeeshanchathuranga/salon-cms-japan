@@ -562,9 +562,10 @@
                            @foreach ($testimonials as $testimonial)
                            <div class="item" aria-roledescription="slide">
                               <div class="shadow-effect">
-                                 <img class="img-circle"
-                                    src="{{ asset('storage/' . $testimonial->image_path) }}"
-                                    alt="Photo of Emiliano Aquilani">
+                                <img class="img-circle"
+     src="{{ $testimonial->image_path ? asset('storage/' . $testimonial->image_path) : asset('images/default.png') }}"
+     alt="Photo of {{ $testimonial->name ?? 'User' }}">
+
                                   <p class="font-15 fw-bolder pb-2">{{ $testimonial->content }}</p>
                               </div>
                               <div class="testimonial-name">{{ $testimonial->name }}</div>
