@@ -92,7 +92,6 @@ background-color: #8e8e8e;
 .ls-2 {
     letter-spacing: 1px;
 }
-
 }
 
 /*vertical*/
@@ -103,9 +102,7 @@ background-color: #8e8e8e;
 
 }
 #customers-testimonials .item {
-
     margin-bottom: 40px;
-
 }
 .seen-section {
     min-height: 400px;
@@ -143,8 +140,6 @@ background-color: #8e8e8e;
     top: 65%;
     
 }
-
-
 
 
 }
