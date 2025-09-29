@@ -741,7 +741,7 @@
               center: true,
               items: 2,
               margin: 0,
-              autoplay: true,
+              autoplay: false,
               autoplayTimeout: 4500,
               smartSpeed: 450,
               dots: true,
