@@ -48,7 +48,6 @@ class TestimonialController extends Controller
     if ($request->hasFile('image')) {
         $imagePath = $request->file('image')->store('testimonials', 'public');
     }
-
     // Create the service
     Testimonial::create([
         'name'       => $validated['name'],

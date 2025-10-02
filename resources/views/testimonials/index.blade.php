@@ -64,8 +64,7 @@
                             
                         @endif
                     </td>
-
-                    <!-- Title -->
+                     <!-- Title -->
                     <td>{{ $testimonial->name }}</td>
 
                     <!-- Description -->

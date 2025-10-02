@@ -151,11 +151,8 @@
 
     </div>
   </div>
-</div>
-
-<!-- DataTables + Modal wiring -->
+</div> 
 <script>
-
     $(document).ready(function () {
     if (!$.fn.DataTable.isDataTable('#servicesTable')) {
         $('#servicesTable').DataTable({

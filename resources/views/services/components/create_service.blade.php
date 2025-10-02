@@ -33,7 +33,6 @@
     @enderror
 </div>
 
-
             <!-- Price -->
             <div class="col-md-6">
               <label class="form-label">Price (¥) <span class="text-danger">*</span></label>

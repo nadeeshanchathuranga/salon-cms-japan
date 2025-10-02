@@ -52,7 +52,7 @@ public function store(Request $request)
         'title'       => 'required|string|max:255',
         'description' => 'nullable|string',
         'price'       => 'required|numeric|min:0',
-'image'       => [
+        'image' => [
         'nullable',
         'image',
         'mimes:jpg,jpeg,png,webp,gif',

@@ -1,9 +1,7 @@
 <!-- Trigger: Add New -->
 <button type="button" class="btn btn-primary btn-md" data-bs-toggle="modal" data-bs-target="#new-testimonial-modal">
  <i class="bi bi-plus-circle me-1"></i> Add testimonial
-</button>
-
-<!-- Modal: New Service -->
+</button> 
 <div class="modal fade" id="new-testimonial-modal" tabindex="-1" aria-labelledby="newTestimonialLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content border-0 shadow-sm">
@@ -30,9 +28,7 @@
               <textarea name="content" class="form-control" rows="4" required>{{ old('content') }}</textarea>
               @error('content') <div class="text-danger small">{{ $message }}</div> @enderror
             </div>
-
-            <!-- Price -->
-
+        
             <!-- Image -->
             <div class="col-md-6">
               <label class="form-label">Image ( Size Width 150px * Height 150px)</label>

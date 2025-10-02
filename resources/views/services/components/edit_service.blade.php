@@ -20,7 +20,6 @@
 
           <div class="modal-body">
             <input type="hidden" name="id" value="{{ $service->id }}"/>
-
             <div class="row">
               <div class="col-12">
                 <div class="form-group">
@@ -30,7 +29,6 @@
                 </div>
               </div>
             </div>
-
             <div class="row mt-2">
               <div class="col-12">
                 <div class="form-group">

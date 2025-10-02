@@ -10,7 +10,6 @@ class HomeController extends Controller
      public function index()
     {
 
-
 $services = Service::where('is_active', true)
                    ->orderBy('id', 'desc') // or another column you prefer
                    ->get();

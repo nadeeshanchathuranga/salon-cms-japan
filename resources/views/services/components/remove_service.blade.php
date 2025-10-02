@@ -5,7 +5,6 @@
         data-bs-target="#remove-service-{{ $service->id }}">
     <i class="fa fa-trash"></i> Delete
 </button>
-
 <!-- Modal -->
 <div class="modal fade" id="remove-service-{{ $service->id }}" tabindex="-1" aria-labelledby="removeServiceLabel-{{ $service->id }}" aria-hidden="true">
   <div class="modal-dialog">
@@ -16,7 +15,6 @@
         </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-
       <form action="{{ route('services.destroy', $service->id) }}" method="POST">
         @csrf
         @method('DELETE')

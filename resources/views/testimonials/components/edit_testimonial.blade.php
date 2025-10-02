@@ -17,11 +17,9 @@
         <form action="{{ route('testimonials.update', $testimonial->id) }}" method="post" enctype="multipart/form-data">
           @csrf
           @method('PUT')
-
           <div class="modal-body">
             <input type="hidden" name="id" value="{{ $testimonial->id }}"/>
-
-            <div class="row">
+             <div class="row">
               <div class="col-12">
                 <div class="form-group">
                   <label for="name{{ $testimonial->id }}">Name <span class="text-danger">*</span></label>
@@ -30,7 +28,6 @@
                 </div>
               </div>
             </div>
-
             <div class="row mt-2">
               <div class="col-12">
                 <div class="form-group">
