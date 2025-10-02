@@ -173,8 +173,15 @@ font-family: "Zen Kaku Gothic New", sans-serif;
     background-image: url('../images/curve-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* keep image centered */
+    background-position: center;
+
+    /* Center content */
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    text-align: center;      /* ensure text stays centered */
 }
+
 .gradient-bar {
   width: 40px;
   height: -webkit-fill-available;

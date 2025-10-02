@@ -21,7 +21,8 @@
     font-size: 27px;
 }
 .seen-section {
-    min-height: 400px;
+   min-height: 500px;
+    margin-top: -5.5em;
 
 }
 .map{
@@ -175,7 +176,7 @@ background-color: #8e8e8e;
 @media (min-width: 1400px) {
 .seen-section {
     min-height: 965px;
-    margin-top: -8em;
+    margin-top: -10em;
 
 }
 

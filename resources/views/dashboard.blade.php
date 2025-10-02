@@ -14,7 +14,7 @@
                <div class="icon-wrapper mb-3">
                   <i class="bi bi-briefcase-fill fs-1"></i>
                </div>
-               <h2 class=" pb-4 fw-bold">Service</h2>
+               <h2 class=" pb-4 fw-bold">サービス追加</h2>
 
                <a href="{{ route('services.index') }}" class="btn btn-primary w-100">View</a>
             </div>
@@ -27,7 +27,7 @@
                <div class="icon-wrapper mb-3">
                   <i class="bi bi-people-fill fs-1"></i>
                </div>
-               <h2 class="pb-4  fw-bold">Testimonial</h2>
+               <h2 class="pb-4  fw-bold">お客様の声</h2>
                <a href="{{ route('testimonials.index') }}"  class="btn btn-success w-100">View</a>
             </div>
          </div>

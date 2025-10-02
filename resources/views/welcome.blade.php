@@ -414,17 +414,19 @@
             </div>
          </div>
       </div>
-      <div class="container-fluid seen-section py-5  ">
-         <div class="container py-5">
-            <div class="row align-items-center py-5">
-               <div class="col-lg-9 mx-auto text-center text-main">
-                  <h2 class="font-48 fw-bold pb-3 jost-font">メディア掲載</h2>
-                  <p class="font-36 kiwi-maru-font  fw-normal">"常に高い品質と心のこもったサービス、そして洗練されたスタイルが魅力の場所"
-                  </p>
-               </div>
-            </div>
+      <div class="container-fluid seen-section">
+   <div class="container">
+      <div class="row align-items-center">
+         <div class="col-lg-9 mx-auto text-main">
+            <h2 class="font-48 fw-bold pb-4 jost-font">メディア掲載</h2>
+            <p class="font-30 kiwi-maru-font fw-normal lh-lg">
+               "常に高い品質と心のこもったサービス、そして洗練されたスタイルが魅力の場所"
+            </p>
          </div>
       </div>
+   </div>
+</div>
+
       <div class="container-fluid follow-section py-5 " id="contact">
          <div class="container  ">
             <div class="row align-items-center ">
@@ -553,7 +555,11 @@
          <div class="container py-lg-5  py-sm-5">
             <div class="row align-items-center ">
                <div class="col-12 jost-font text-main text-center mx-auto">
-                  <h2 class="font-40 fw-bold">Testimonial</h2>
+                  <h2 class="font-40 fw-bold"> 
+
+お客様の声
+
+</h2>
                   <div class="row g-4">
                      <div class="col-sm-12">
                         <div id="customers-testimonials" class="owl-carousel" role="region"
@@ -592,9 +598,9 @@
             <div class="col-lg-4 col-sm-4">
                <img src="{{ asset('/images/clock.png') }}" class="w-auto mx-auto" alt="CHERISH">
                <h4 class="font-20 fw-bold text-main text-uppercase ls-2  py-3">営業時間</h4>
-               <p class="fw-normal jost-font font-16 pb-1 text-a"> Mon to Fri: 7:30 am — 1:00 am</p>
-               <p class=" fw-normal jost-font font-16 pb-1 text-a">Sat: 9:00 am — 1:00 am</p>
-               <p class=" fw-normal jost-font font-16 pb-1 text-a">Sun: 9:00 am — 11:30 pm</p>
+               <p class="fw-normal jost-font font-16 pb-1 text-a"> 10時半～18時半最終入店</p>
+               <p class=" fw-normal jost-font font-16 pb-1 text-a"> 定休日：月曜日、木曜日</p>
+               
             </div>
             <div class="col-lg-4 col-sm-4">
                <img src="{{ asset('/images/location.png') }}" class="w-auto mx-auto" alt="CHERISH">
@@ -606,8 +612,8 @@
          </div>
       </div>
       <footer class="footer-section py-5 bg-second">
-         <div class="container pt-lg-3">
-            <div class="row gy-4 align-items-start align-items-lg-center justify-content-between">
+         <div class="container">
+            <div class="row gy-4 justify-content-between">
                <!-- Brand -->
                <div class="col-6 col-sm-4 col-lg-3">
                   <a href="{{ route('home') }}" title="CHERISH | Home Page" class="d-inline-block">
@@ -617,7 +623,7 @@
                </div>
                <!-- Quick Links -->
                <nav class="col-6 col-sm-5 col-lg-4" aria-label="Quick links">
-                  <h4 class="h6 fw-bold text-main text-uppercase pb-3 m-0">リンク</h4>
+                  <h4 class="h6 fw-bold text-main text-uppercase pt-lg-0 pt-sm-0 pt-4 pb-3 m-0">リンク</h4>
                   <ul class="list-unstyled m-0 p-0">
   <li class="pb-2">
     <i class="fa-solid fa-right-long me-2"></i>
@@ -645,21 +651,22 @@
                <!-- Contact / Social -->
                <div class="col-12 col-sm-12 col-lg-4 text-start">
 
-                  <h3 class="h6 fw-bold text-main text-uppercase pt-4 pb-3 m-0">お支払方法</h3>
+                  <h3 class="h6 fw-bold text-main text-uppercase pt-lg-0 pt-sm-0 pt-4 pb-3 m-0">お支払方法</h3>
                   <div class="row g-3">
                      <!-- Card Payment -->
-                     <div class="col-lg-4 col-sm-3 col-4">
-                        <div class=" text-center">
-                           <i class="fa-solid fa-credit-card fa-2x text-main mb-3"></i>
-                           <h5 class="mb-0  fw-normal jost-font font-16">VISA/JCB/PayPay</h5>
-                        </div>
+                     <div class="col-lg-6 col-sm-5 col-4">
+                         
+                    
+                            <img src="{{ asset('/images/visa.png') }}" class="img-fluid" alt="CHERISH logo" >
+
+ 
                      </div>
                      <!-- Cash Payment -->
-                   <div class="col-lg-4 col-sm-3 col-4">
-                        <div class=" text-center">
-                           <i class="fa-solid fa-money-bill-wave fa-2x text-main mb-3"></i>
-                           <h5 class="mb-0  fw-normal jost-font font-16">現金</h5>
-                        </div>
+                   <div class="col-lg-5 col-sm-4 col-4">
+                         
+                           <i class="fa-solid fa-money-bill-wave fa-2x text-main"></i>
+                           <h5 class="mb-0  fw-bolder jost-font font-12">現金</h5>
+                       
                      </div>
                   </div>
                </div>
@@ -672,9 +679,10 @@
             <div class="row">
                <div class="col-xs-12">
                   <p class="company-name">
-                     Copyright © <span id="year"></span> CHERISH |
+                     Copyright © 2026 CHERISH 
+                     {{-- |
                      Design by <a href="https://onemaxweb.com" target="_blank" class="text-dark fw-bolder">
-                     OneMaxWeb Solution
+                     OneMaxWeb Solution --}}
                      </a>
                   </p>
                </div>
