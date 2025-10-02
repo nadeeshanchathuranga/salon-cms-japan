@@ -14,11 +14,7 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
-    
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
-
-
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
       <link href="{{ asset('css/lightbox.min.css') }}" rel="stylesheet">
       <link href="{{ asset('css/hover.css') }}" rel="stylesheet">
       <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -40,35 +36,32 @@
                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
-                 <div class="collapse navbar-collapse" id="navbarNav">
-  <ul class="navbar-nav mx-auto navbar-custom">
-    <li class="nav-item">
-      <a class="nav-link active font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
-         aria-current="page" href="#home">ホーム</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
-         href="#about">私たちについて</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
-         href="#services">サービス一覧</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
-         href="#story">Cherish のストーリー</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
-         href="#contact">お問い合わせ</a>
-    </li>
-  </ul>
-</div>
-
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav mx-auto navbar-custom">
+                        <li class="nav-item">
+                           <a class="nav-link active font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
+                              aria-current="page" href="#home">ホーム</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
+                              href="#about">私たちについて</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
+                              href="#services">サービス一覧</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
+                              href="#story">Cherish のストーリー</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link font-18 jost-font text-white fw-bolder ps-lg-5 ps-sm-4 ps-2"
+                              href="#contact">お問い合わせ</a>
+                        </li>
+                     </ul>
+                  </div>
                </nav>
             </div>
-
-
          </div>
       </div>
       <div class="container-fluid slider-section  ">
@@ -131,15 +124,10 @@
                   <h1 class="font-54 fw-bold mb-4">私たちについて</h1>
                   <ul class="custom-bullets mb-4 font-14">
                      <li class="d-flex mb-2">
-                        
-                           <strong>カラダ</strong> → 水素吸入や天然鉱石を使った足湯、低温の岩盤浴などを組み合わせてデトックス
-                        
+                        <strong>カラダ</strong> → 水素吸入や天然鉱石を使った足湯、低温の岩盤浴などを組み合わせてデトックス
                      </li>
                      <li class="d-flex mb-2">
-                         
-                      
-                           <strong>ココロ</strong> → ご自身が選ばれた色をもとに、お話を聞き、今やちょっと先の未来を生きやすくするための後押し
-                         
+                        <strong>ココロ</strong> → ご自身が選ばれた色をもとに、お話を聞き、今やちょっと先の未来を生きやすくするための後押し
                      </li>
                   </ul>
                   <p class="font-14 fw-bolder pb-1">
@@ -303,17 +291,15 @@
                   </div>
                   @endif
                </div>
-              
                <!-- <p class="font-16 fw-normal py-3">We started as a small beauty studio in Pakistan. Our main idea was
                   to create the best beauty studio in the world. Can there be compromises in the best studio in
                   the world? Our answer is always no, we care about the best quality, we hire the best specialists
                   and provide the best customer service. This approach allowed us to grow and create awesome team
                   that is passionate about everything we do.
-               </p>
-               <p class="pt-4 ">
+                  </p>
+                  <p class="pt-4 ">
                   <a href="" class="py-2 px-5 btn-border font-16 fw-bold text-center hvr-bounce-to-right">View サービス一覧</a>
-               </p> -->
-             
+                  </p> -->
             </div>
          </div>
       </div>
@@ -322,111 +308,99 @@
             <div class="row align-items-center pb-lg-5">
                <!-- <div class="col-lg-6  col-12">
                   <img src="{{ asset('/images/coming-soon.png') }}" class="w-100" alt="CHERISH">
-               </div> -->
+                  </div> -->
                <div class=" col-lg-8 col-sm-10 mx-auto text-start jost-font text-main">
-                  
-
-<h1 class="font-40 fw-bold pb-3 text-center pb-4">CHERISH（チェリッシュ）について</h1>
- <p class="fw-normal jost-font font-16 mb-2">
-  CHERISH（チェリッシュ）は、がんばりすぎてしまう毎日の中で
-</p>
- <p class="fw-normal jost-font font-16 mb-2">
-  <strong>「自分を大切にできる場所をつくりたい」</strong>
-</p>
-   <p class="fw-normal jost-font font-16 mb-2">
-  そんな思いから生まれました。
-</p>
-
-  <p class="fw-normal jost-font font-16 mb-2">
-  わたしたちは、水素吸入と天然鉱石を使った足湯や低温の岩盤浴サウナを掛け合わせ、デトックスを行い、
-</p>
-  <p class="fw-normal jost-font font-16 mb-2">
-  色彩心理カウンセリングなどを通して、ココロに目を向ける。
-</p>
-  <p class="fw-normal jost-font font-16 mb-2">
-  心と身体を静かにゆるめるための、穏やかな時間を過ごす
-</p>
-  <p class="fw-normal jost-font font-16 mb-2">
-  <strong>“自分を大切にする習慣”</strong>
-</p>
-  <p class="fw-normal jost-font font-16 mb-2">
-  を届けています。
-</p>
-
-<h2  class="font-30 fw-bold pb-3 text-center pt-2 pb-4">CHERISH が大切にしていること</h2>
-<ul class="custom-bullets">
-  <li class="mb-4">
-    <span class="fw-bold text-main d-block mb-2">【日常に寄り添うデトックス】</span>
-    <p class="fw-normal jost-font font-16 mb-0">
-      無理なく通える価格と時間で、続けられるケアを。
-    </p>
-  </li>
-
-  <li class="mb-4">
-    <span class="fw-bold text-main d-block mb-2">【本物に触れる安心感】</span>
-    <p class="fw-normal jost-font font-16 mb-0">
-      厳選した機器や天然鉱石を導入し、質を落とさず心地よさを追求。
-    </p>
-  </li>
-
-  <li class="mb-4">
-    <span class="fw-bold text-main d-block mb-2">【心も身体も緩める空間】</span>
-    <p class="fw-normal jost-font font-16 mb-0">
-      忙しい日常から少し離れて、素の自分に戻れるような場所に。
-    </p>
-  </li>
-
-  <li class="mb-4">
-    <span class="fw-bold text-main d-block mb-2">【名前に込めた想い】</span>
-    <p class="fw-normal jost-font font-16 mb-2">
-      CHERISH＝大切にする、愛おしむ。
-    </p>
-    <p class="fw-normal jost-font font-16 mb-2">
-      ここで過ごす時間が「自分を大切にするきっかけ」となり、
-    </p>
-    <p class="fw-normal jost-font font-16 mb-0">
-      その優しさがまた周りの人へも広がっていくことを願っています。
-    </p>
-  </li>
-</ul>
-<div class="cherish-message">
-  <p class="fw-bolder jost-font font-18 pb-2">
-    CHERISHは、訪れるたびに「また明日も頑張ろう」と思えるような
-  </p>
- <p class="fw-bolder jost-font font-18 pb-2">
-    心と身体のリセット空間を目指しています。
-  </p>
-  <p class="fw-bolder jost-font font-18 pb-2">
-    初めて来てくださる方も、何度も通ってくださる方も、
-  </p>
-  <p class="fw-bolder jost-font font-18 pb-2">
-    「ここに来ると整う」と感じていただけるように。
-  </p>
- <p class="fw-bolder jost-font font-18 pb-2">
-    ここから、あなた自身の物語がまた新しく始まりますように。
-  </p>
-</div>
-
-
-
-
+                  <h1 class="font-40 fw-bold pb-3 text-center pb-4">CHERISH（チェリッシュ）について</h1>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     CHERISH（チェリッシュ）は、がんばりすぎてしまう毎日の中で
+                  </p>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     <strong>「自分を大切にできる場所をつくりたい」</strong>
+                  </p>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     そんな思いから生まれました。
+                  </p>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     わたしたちは、水素吸入と天然鉱石を使った足湯や低温の岩盤浴サウナを掛け合わせ、デトックスを行い、
+                  </p>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     色彩心理カウンセリングなどを通して、ココロに目を向ける。
+                  </p>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     心と身体を静かにゆるめるための、穏やかな時間を過ごす
+                  </p>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     <strong>“自分を大切にする習慣”</strong>
+                  </p>
+                  <p class="fw-normal jost-font font-16 mb-2">
+                     を届けています。
+                  </p>
+                  <h2  class="font-30 fw-bold pb-3 text-center pt-2 pb-4">CHERISH が大切にしていること</h2>
+                  <ul class="custom-bullets">
+                     <li class="mb-4">
+                        <span class="fw-bold text-main d-block mb-2">【日常に寄り添うデトックス】</span>
+                        <p class="fw-normal jost-font font-16 mb-0">
+                           無理なく通える価格と時間で、続けられるケアを。
+                        </p>
+                     </li>
+                     <li class="mb-4">
+                        <span class="fw-bold text-main d-block mb-2">【本物に触れる安心感】</span>
+                        <p class="fw-normal jost-font font-16 mb-0">
+                           厳選した機器や天然鉱石を導入し、質を落とさず心地よさを追求。
+                        </p>
+                     </li>
+                     <li class="mb-4">
+                        <span class="fw-bold text-main d-block mb-2">【心も身体も緩める空間】</span>
+                        <p class="fw-normal jost-font font-16 mb-0">
+                           忙しい日常から少し離れて、素の自分に戻れるような場所に。
+                        </p>
+                     </li>
+                     <li class="mb-4">
+                        <span class="fw-bold text-main d-block mb-2">【名前に込めた想い】</span>
+                        <p class="fw-normal jost-font font-16 mb-2">
+                           CHERISH＝大切にする、愛おしむ。
+                        </p>
+                        <p class="fw-normal jost-font font-16 mb-2">
+                           ここで過ごす時間が「自分を大切にするきっかけ」となり、
+                        </p>
+                        <p class="fw-normal jost-font font-16 mb-0">
+                           その優しさがまた周りの人へも広がっていくことを願っています。
+                        </p>
+                     </li>
+                  </ul>
+                  <div class="cherish-message">
+                     <p class="fw-bolder jost-font font-18 pb-2">
+                        CHERISHは、訪れるたびに「また明日も頑張ろう」と思えるような
+                     </p>
+                     <p class="fw-bolder jost-font font-18 pb-2">
+                        心と身体のリセット空間を目指しています。
+                     </p>
+                     <p class="fw-bolder jost-font font-18 pb-2">
+                        初めて来てくださる方も、何度も通ってくださる方も、
+                     </p>
+                     <p class="fw-bolder jost-font font-18 pb-2">
+                        「ここに来ると整う」と感じていただけるように。
+                     </p>
+                     <p class="fw-bolder jost-font font-18 pb-2">
+                        ここから、あなた自身の物語がまた新しく始まりますように。
+                     </p>
+                  </div>
                </div>
             </div>
          </div>
       </div>
       <div class="container-fluid seen-section">
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-lg-9 mx-auto text-main">
-            <h2 class="font-48 fw-bold pb-4 jost-font">メディア掲載</h2>
-            <p class="font-30 kiwi-maru-font fw-normal lh-lg">
-               "常に高い品質と心のこもったサービス、そして洗練されたスタイルが魅力の場所"
-            </p>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-9 mx-auto text-main">
+                  <h2 class="font-48 fw-bold pb-4 jost-font">メディア掲載</h2>
+                  <p class="font-30 kiwi-maru-font fw-normal lh-lg">
+                     "常に高い品質と心のこもったサービス、そして洗練されたスタイルが魅力の場所"
+                  </p>
+               </div>
+            </div>
          </div>
       </div>
-   </div>
-</div>
-
       <div class="container-fluid follow-section py-5 " id="contact">
          <div class="container  ">
             <div class="row align-items-center ">
@@ -556,31 +530,31 @@
             <div class="row align-items-center ">
                <div class="col-12 jost-font text-main text-center mx-auto">
                   <h2 class="font-40 fw-bold"> 
+                     お客様の声
+                  </h2>
+                   
 
-お客様の声
+<div class="row g-4">
+  <div class="col-sm-12">
+    <div id="customers-testimonials" class="owl-carousel" role="region"
+         aria-roledescription="carousel" aria-label="Testimonials">
+      @foreach ($testimonials as $testimonial)
+        <div class="item" aria-roledescription="slide">
+          <div class="shadow-effect">
+            <img class="img-circle"
+                 src="{{ $testimonial->image_path ? asset('storage/' . $testimonial->image_path) : asset('images/default.png') }}"
+                 alt="Photo of {{ $testimonial->name ?? 'User' }}">
+            <p class="font-15 fw-bolder pb-2">{{ $testimonial->content }}</p>
+          </div>
+          <div class="testimonial-name">{{ $testimonial->name }}</div>
+        </div>
+      @endforeach
+    </div>
+  </div>
+</div>
 
-</h2>
-                  <div class="row g-4">
-                     <div class="col-sm-12">
-                        <div id="customers-testimonials" class="owl-carousel" role="region"
-                           aria-roledescription="carousel" aria-label="Testimonials">
-                           <!-- ITEM 1 -->
-                           @foreach ($testimonials as $testimonial)
-                           <div class="item" aria-roledescription="slide">
-                              <div class="shadow-effect">
-                                <img class="img-circle"
-     src="{{ $testimonial->image_path ? asset('storage/' . $testimonial->image_path) : asset('images/default.png') }}"
-     alt="Photo of {{ $testimonial->name ?? 'User' }}">
 
-                                  <p class="font-15 fw-bolder pb-2">{{ $testimonial->content }}</p>
-                              </div>
-                              <div class="testimonial-name">{{ $testimonial->name }}</div>
-                           </div>
-                           @endforeach
-                        </div>
-                        <!-- /#customers-testimonials -->
-                     </div>
-                  </div>
+                  
                </div>
             </div>
          </div>
@@ -600,7 +574,6 @@
                <h4 class="font-20 fw-bold text-main text-uppercase ls-2  py-3">営業時間</h4>
                <p class="fw-normal jost-font font-16 pb-1 text-a"> 10時半～18時半最終入店</p>
                <p class=" fw-normal jost-font font-16 pb-1 text-a"> 定休日：月曜日、木曜日</p>
-               
             </div>
             <div class="col-lg-4 col-sm-4">
                <img src="{{ asset('/images/location.png') }}" class="w-auto mx-auto" alt="CHERISH">
@@ -625,52 +598,43 @@
                <nav class="col-6 col-sm-5 col-lg-4" aria-label="Quick links">
                   <h4 class="h6 fw-bold text-main text-uppercase pt-lg-0 pt-sm-0 pt-4 pb-3 m-0">リンク</h4>
                   <ul class="list-unstyled m-0 p-0">
-  <li class="pb-2">
-    <i class="fa-solid fa-right-long me-2"></i>
-    <a href="#home" class="font-15 fw-semibold jost-font text-main hvr-forward">ホーム</a>
-  </li>
-  <li class="pb-2">
-    <i class="fa-solid fa-right-long me-2"></i>
-    <a href="#about" class="font-15 fw-semibold jost-font text-main hvr-forward">私たちについて</a>
-  </li>
-  <li class="pb-2">
-    <i class="fa-solid fa-right-long me-2"></i>
-    <a href="#services" class="font-15 fw-semibold jost-font text-main hvr-forward">サービス一覧</a>
-  </li>
-  <li class="pb-2">
-    <i class="fa-solid fa-right-long me-2"></i>
-    <a href="#story" class="font-15 fw-semibold jost-font text-main hvr-forward">Cherish のストーリー</a>
-  </li>
-  <li class="pb-2">
-    <i class="fa-solid fa-right-long me-2"></i>
-    <a href="#contact" class="font-15 fw-semibold jost-font text-main hvr-forward">お問い合わせ</a>
-  </li>
-</ul>
-
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long me-2"></i>
+                        <a href="#home" class="font-15 fw-semibold jost-font text-main hvr-forward">ホーム</a>
+                     </li>
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long me-2"></i>
+                        <a href="#about" class="font-15 fw-semibold jost-font text-main hvr-forward">私たちについて</a>
+                     </li>
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long me-2"></i>
+                        <a href="#services" class="font-15 fw-semibold jost-font text-main hvr-forward">サービス一覧</a>
+                     </li>
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long me-2"></i>
+                        <a href="#story" class="font-15 fw-semibold jost-font text-main hvr-forward">Cherish のストーリー</a>
+                     </li>
+                     <li class="pb-2">
+                        <i class="fa-solid fa-right-long me-2"></i>
+                        <a href="#contact" class="font-15 fw-semibold jost-font text-main hvr-forward">お問い合わせ</a>
+                     </li>
+                  </ul>
                </nav>
                <!-- Contact / Social -->
                <div class="col-12 col-sm-12 col-lg-4 text-start">
-
                   <h3 class="h6 fw-bold text-main text-uppercase pt-lg-0 pt-sm-0 pt-4 pb-3 m-0">お支払方法</h3>
                   <div class="row g-3">
                      <!-- Card Payment -->
                      <div class="col-lg-6 col-sm-5 col-4">
-                         
-                    
-                            <img src="{{ asset('/images/visa.png') }}" class="img-fluid" alt="CHERISH logo" >
-
- 
+                        <img src="{{ asset('/images/visa.png') }}" class="img-fluid" alt="CHERISH logo" >
                      </div>
                      <!-- Cash Payment -->
-                   <div class="col-lg-5 col-sm-4 col-4">
-                         
-                           <i class="fa-solid fa-money-bill-wave fa-2x text-main"></i>
-                           <h5 class="mb-0  fw-bolder jost-font font-12">現金</h5>
-                       
+                     <div class="col-lg-5 col-sm-4 col-4">
+                        <i class="fa-solid fa-money-bill-wave fa-2x text-main"></i>
+                        <h5 class="mb-0  fw-bolder jost-font font-12">現金</h5>
                      </div>
                   </div>
                </div>
-
             </div>
          </div>
       </footer>
@@ -698,83 +662,81 @@
    </body>
    <script>
       document.getElementById("year").textContent = new Date().getFullYear();
-
-
-      $('.service-carousel').owlCarousel({
-          loop: true,
-          dots: true,
-          nav: true,
-          navText: [
-              '<i class="fa fa-chevron-left"></i>',
-              '<i class="fa fa-chevron-right"></i>'
-          ],
-          autoplay: true,
-          smartSpeed: 5000,
-          animateOut: 'fadeOut',
-          autoplayTimeout: 5000,
-          margin: 16,
-          responsive: {
-              0: {
-                  items: 1
-              },
-              600: {
-                  items: 2
-              },
-              1000: {
-                  items: 3
-              }
-          }
-      });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      jQuery(function($) {
-          "use strict";
-
-          $('#customers-testimonials').owlCarousel({
-              loop: true,
-              center: true,
-              items: 2,
-              margin: 0,
-              autoplay: false,
-              autoplayTimeout: 4500,
-              smartSpeed: 450,
-              dots: true,
-              nav: false,
-              // keep the “peek” feel on smaller screens too
-              responsive: {
-                  0: {
-                      items: 1,
-                      stagePadding: 30,
-                      margin: 10
-                  },
-                  600: {
-                      items: 2,
-                      stagePadding: 80
-                  },
-                  1000: {
-                      items: 2,
-                      stagePadding: 50
-                  }
-              }
-          });
-
- 
-      });
+      
+      
+       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+       
    </script>
 
- 
+   <script>
+document.addEventListener('DOMContentLoaded', function () {
+  var $el = $('#customers-testimonials');
+  if (!$el.length) return;
+
+  var count = {{ count($testimonials) }}; // Blade renders the number
+  var show = Math.min(2, Math.max(1, count)); // 1 if only one, else 2
+
+  $el.owlCarousel({
+    loop: count > 1,            // don't loop if there’s only one slide
+    center: count > 1,
+    items: show,
+    margin: 10,
+    autoplay: false,
+    autoplayTimeout: 4500,
+    smartSpeed: 450,
+    dots: true,
+    nav: false,
+    responsive: {
+      0:   { items: 1, stagePadding: 30, margin: 10 },
+      600: { items: show, stagePadding: 80 },
+      1000:{ items: show, stagePadding: 50 }
+    }
+  });
+});
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  var $el = $('.service-carousel');
+  if (!$el.length) return;
+
+  var count = {{ count($testimonials) }}; // Blade renders the number
+  var show = Math.min(2, Math.max(1, count)); // 1 if only one, else 2
+
+  $el.owlCarousel({
+    loop: count > 1,            // don't loop if there’s only one slide
+    center: count > 1,
+    items: show,
+    margin: 10,
+    autoplay: false,
+    autoplayTimeout: 4500,
+    smartSpeed: 450,
+    dots: true,
+    nav: false,
+    responsive: {
+      0:   { items: 1, stagePadding: 30, margin: 10 },
+      600: { items: show, stagePadding: 80 },
+      1000:{ items: show, stagePadding: 50 }
+    }
+  });
+});
+
+
+
+
+
+</script>
+
 </html>
